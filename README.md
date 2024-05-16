@@ -1,5 +1,5 @@
 # Werken onder architectuur
-Deze repository zal een enterprise architectuur publicatie gaan bevatten. Op dit moment wordt nog vastgesteld wat de vereisten daarvoor zijn. Een belangijke maar niet de enige reden voor het maken van deze enterprise architectuur is o.a. de wens om een beter zicht te krijgen op het gezondheidsinformatiestelsel en vooral hoe de 'dingen' daarbinnen met elkaar samenhangen.
+Deze repository zal een enterprise architectuur publicatie gaan bevatten. Op dit moment wordt nog vastgesteld wat de vereisten daarvoor zijn. Een belangrijke maar niet de enige reden voor het maken van deze enterprise architectuur is o.a. de wens om een beter zicht te krijgen op het gezondheidsinformatiestelsel en vooral hoe de 'dingen' daarbinnen met elkaar samenhangen.
 
 ### Huidige lopende acties
 - Vaststellen van de doelstellingen.
@@ -13,11 +13,11 @@ Deze repository zal een enterprise architectuur publicatie gaan bevatten. Op dit
   - Referentiearchitecturen
   - Best-practices
   - Architectuurpatronen
-- Vaststellen van archtitectuurprincipes
+- Vaststellen van architectuurprincipes
 - Vaststellen van architectuurtools
 - Vaststellen van de realisatie en implementatiestrategie.
 
-Mede de toolkeuze zorgt ervoor dat deze publicatieplek wellicht tijdelijk zal blijken te zijn.
+Mede de tool keuze zorgt ervoor dat deze publicatieplek wellicht tijdelijk zal blijken te zijn.
 
 ### Vragen en feedback
 We zullen zo snel mogelijk de issues en discussions gaan 'openzetten' zodat je als geïnteresseerde vragen kunt stellen en feedback kunt geven. De resultaten van de lopende acties zullen we ook publiceren via deze repository.  
