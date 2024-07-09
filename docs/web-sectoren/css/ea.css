@@ -369,7 +369,7 @@ UL {
 	border: 1px solid #EEEEEE;
 	color: #1A1A1A;
 	height: expression(this.scrollHeight > 200 ? "200px" : "auto");
-	max-height: 200px;
+	/* max-height: 200px; */
 	overflow: auto;
 	margin: 5px;
 	margin-top:20px;
@@ -626,7 +626,7 @@ UL {
 	border-radius: 0px;
 	margin-top: 5px;
 	height: 100%;
-	width: 450px;
+	width: 350px;
 	padding-left: 15px;
 	padding-top: 25px;
 	vertical-align: top;
