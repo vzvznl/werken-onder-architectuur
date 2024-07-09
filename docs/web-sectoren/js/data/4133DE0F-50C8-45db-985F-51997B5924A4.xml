@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.5:1", "", "01. Verwijziging", "EARoot/EA1/EA4/EA2/EA5/EA125.htm", "175.png", "15229", "0", "", "Logical diagram0","{B6317E49-67FA-4328-99E7-FF4E3B41762F}");
+tocTab[tocTab.length] = new Array("0.1.4.2.5:2", "", "02. Informatie uitwisseling", "EARoot/EA1/EA4/EA2/EA5/EA127.htm", "175.png", "15228", "0", "", "Logical diagram0","{8165AB63-87AE-47fb-9A81-090EA6B5AE44}");
+tocTab[tocTab.length] = new Array("0.1.4.2.5:3", "", "03. Participatie", "EARoot/EA1/EA4/EA2/EA5/EA129.htm", "175.png", "15230", "0", "", "Logical diagram0","{2D0DCEF0-944B-487d-A466-3173E84C7A0A}");
+tocTab[tocTab.length] = new Array("0.1.4.2.5:4", "", "04. Kennismanagement", "EARoot/EA1/EA4/EA2/EA5/EA131.htm", "175.png", "15203", "0", "", "Logical diagram0","{A3BFB26C-875E-4f80-8332-3457F5E11B43}");
+tocTab[tocTab.length] = new Array("0.1.4.2.5:5", "", "05. Wetenschappelijk onderzoek", "EARoot/EA1/EA4/EA2/EA5/EA133.htm", "175.png", "15208", "0", "", "Logical diagram0","{57355680-1A1E-4abb-9CE8-072C9EEE38D0}");
+tocTab[tocTab.length] = new Array("0.1.4.2.5:6", "", "06. Onderwijs", "EARoot/EA1/EA4/EA2/EA5/EA135.htm", "175.png", "15210", "0", "", "Logical diagram0","{0C6CDF96-7A62-4c16-A29D-3A2E68A07834}");

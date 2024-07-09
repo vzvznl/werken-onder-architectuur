@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.1:1", "", "01. Aanmelding", "EARoot/EA1/EA4/EA2/EA1/EA69.htm", "175.png", "15201", "0", "", "Logical diagram0","{CFBE7C07-B4FB-4bee-B168-54EFF57A3B19}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:2", "", "02. Toeleiding", "EARoot/EA1/EA4/EA2/EA1/EA71.htm", "175.png", "15213", "0", "", "Logical diagram0","{4DB04DBB-274C-4bc9-B07B-66F0EE97EDEE}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:3", "", "03. Behandeling", "EARoot/EA1/EA4/EA2/EA1/EA73.htm", "175.png", "15214", "0", "", "Logical diagram0","{DF0C4369-3310-4617-A5A7-CA164CFD14E2}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:4", "", "04. Verzorging", "EARoot/EA1/EA4/EA2/EA1/EA75.htm", "175.png", "15199", "0", "", "Logical diagram0","{454BE39A-0A12-45de-B149-BEBD46F57E01}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:5", "", "05. Medicatie", "EARoot/EA1/EA4/EA2/EA1/EA77.htm", "175.png", "15205", "0", "", "Logical diagram0","{9E404672-2431-413d-A779-2323E7904D17}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:6", "", "06. Beëindigen zorg", "EARoot/EA1/EA4/EA2/EA1/EA79.htm", "175.png", "15218", "0", "", "Logical diagram0","{F2E8A0E0-F096-4d86-8B95-E2F0D4268DAE}");
+tocTab[tocTab.length] = new Array("0.1.4.2.1:7", "", "07. Aanvullend onderzoek", "EARoot/EA1/EA4/EA2/EA1/EA81.htm", "175.png", "15200", "0", "", "Logical diagram0","{C14B25C5-7B62-42fb-A487-799F062E54F5}");

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.4:1", "", "01. Sturing", "EARoot/EA1/EA4/EA2/EA4/EA114.htm", "175.png", "15224", "0", "", "Logical diagram0","{366715DA-BC5B-4ef8-95CF-BDFC20C73C74}");
+tocTab[tocTab.length] = new Array("0.1.4.2.4:2", "", "02. Marketing", "EARoot/EA1/EA4/EA2/EA4/EA116.htm", "175.png", "15226", "0", "", "Logical diagram0","{96FE89A8-CDF3-4421-B1B2-52D0CC2B6BA5}");
+tocTab[tocTab.length] = new Array("0.1.4.2.4:3", "", "03. Performance", "EARoot/EA1/EA4/EA2/EA4/EA118.htm", "175.png", "15225", "0", "", "Logical diagram0","{B1B12707-26FA-4161-8A39-E60A6EF29AFD}");
+tocTab[tocTab.length] = new Array("0.1.4.2.4:4", "", "04. Verantwoording", "EARoot/EA1/EA4/EA2/EA4/EA120.htm", "175.png", "15227", "0", "", "Logical diagram0","{EBC11E19-7E5B-44b7-828D-088C23BE60B4}");
+tocTab[tocTab.length] = new Array("0.1.4.2.4:5", "", "05. Innovatie", "EARoot/EA1/EA4/EA2/EA4/EA122.htm", "175.png", "15223", "0", "", "Logical diagram0","{EF024A0F-570F-4ca2-B06A-339E4458A09E}");

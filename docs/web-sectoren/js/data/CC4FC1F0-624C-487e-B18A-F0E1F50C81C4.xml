@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.1", "1", "03. Zorgverlening", "EARoot/EA1/EA4/EA2/EA1/EA83.htm", "4.png", "", "", "{4599A225-04D3-4101-A0B6-7EFA5B532087}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.2", "1", "04. Zorgprocesondersteuning", "EARoot/EA1/EA4/EA2/EA2/EA92.htm", "4.png", "", "", "{3D52BCE5-5AB2-4412-A98D-6C95C09A5B23}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.3", "1", "05. Bedrijfsondersteuning", "EARoot/EA1/EA4/EA2/EA3/EA113.htm", "4.png", "", "", "{6838A5E2-0C9D-4dee-A372-42D73BA98262}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.4", "1", "01. Sturing en verantwoording", "EARoot/EA1/EA4/EA2/EA4/EA124.htm", "4.png", "", "", "{CDA0741A-2169-4720-AADA-CF109A50FFFA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.5", "1", "02. Samenwerking", "EARoot/EA1/EA4/EA2/EA5/EA137.htm", "4.png", "", "", "{4133DE0F-50C8-45db-985F-51997B5924A4}", "Package");

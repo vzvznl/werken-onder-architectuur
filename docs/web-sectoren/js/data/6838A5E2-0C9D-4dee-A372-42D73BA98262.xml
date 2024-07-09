@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.3:1", "", "01. Beheer gebouwen", "EARoot/EA1/EA4/EA2/EA3/EA93.htm", "175.png", "15198", "0", "", "Logical diagram0","{70377FB1-7543-4d3e-B9B4-24EA9E01BE10}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:2", "", "02. Inkoop-, contract-, en voorraad-beheer", "EARoot/EA1/EA4/EA2/EA3/EA95.htm", "175.png", "15217", "0", "", "Logical diagram0","{95A55437-230D-4d09-8F9D-85E23134C7B5}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:3", "", "03. Juridische ondersteuning", "EARoot/EA1/EA4/EA2/EA3/EA97.htm", "175.png", "15209", "0", "", "Logical diagram0","{1F4048DC-E9F9-4d16-AD18-54EBDD0191C7}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:4", "", "04. Communicatie en voorlichting", "EARoot/EA1/EA4/EA2/EA3/EA99.htm", "175.png", "15195", "0", "", "Logical diagram0","{99ED9DDD-19C3-42f6-8152-EA8A955DC1C4}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:5", "", "05. Facilitaire ondersteuning", "EARoot/EA1/EA4/EA2/EA3/EA101.htm", "175.png", "15212", "0", "", "Logical diagram0","{A38EFC22-4608-493e-BF20-BB73408656CC}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:6", "", "06. Personeel en organisatie", "EARoot/EA1/EA4/EA2/EA3/EA103.htm", "175.png", "15204", "0", "", "Logical diagram0","{321FEC26-2329-4896-8274-9CDF3D75CB93}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:7", "", "07. Financiële administratie", "EARoot/EA1/EA4/EA2/EA3/EA105.htm", "175.png", "15196", "0", "", "Logical diagram0","{A6483D43-1EF7-4188-9CAE-E4A01613778F}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:8", "", "08. Informatie voorziening", "EARoot/EA1/EA4/EA2/EA3/EA107.htm", "175.png", "15197", "0", "", "Logical diagram0","{C3D38F03-5CEE-4d65-8808-0955D510FDE4}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:9", "", "09. Veiligheid, Kwaliteit, Arbo, en Milieu", "EARoot/EA1/EA4/EA2/EA3/EA109.htm", "175.png", "15207", "0", "", "Logical diagram0","{D1826BA8-0725-4929-B959-1ED30B2076E2}");
+tocTab[tocTab.length] = new Array("0.1.4.2.3:10", "", "10. Planning & control", "EARoot/EA1/EA4/EA2/EA3/EA111.htm", "175.png", "15211", "0", "", "Logical diagram0","{6DBFE669-2568-4c8c-B24F-DBD28880B1A6}");
