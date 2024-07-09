@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "Basismodel applicatie", "EARoot/EA1/EA2/EA8.htm", "175.png", "15176", "0", "", "Logical diagram0","{64CC9BA2-BDE5-4428-87BC-635A962D372C}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "Behandelportaal", "EARoot/EA1/EA2/EA11.htm", "9F0DDA8A-5_ArchiMate_ApplicationInterface.png", "E101061", "0", "", "Interface0","{8349C21D-9FB5-4e9e-8998-E71DA4DD9EC3}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "Patiënt administratie service", "EARoot/EA1/EA2/EA12.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E101059", "0", "", "Activity0","{DF54E957-A4EE-44a7-BB1F-63227EDC62A7}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "ZIS", "EARoot/EA1/EA2/EA13.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E101060", "0", "", "Component0","{B86C338E-5845-42df-83C9-03B9C6474072}");

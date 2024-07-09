@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Evidence Base</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Evidence Base </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">html publicatie test</a> / <a href="../../../EA46.htm">02. Ontwerp</a> / <a href="../../EA52.htm">02. Zib 2020</a> / <a href="../EA54.htm">nl.zorg.Patient-v3.2</a> / <a href="EA80.htm">Evidence Base</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<a href="EA54.htm">nl.zorg.Patient-v3.2</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Evidence Base<!-- Wetenschappelijke onderbouwing : Public   Package --></span>
+	<span class="Note"><div class="ObjectDetailsNotes">#lt;languages xml:space=&quot;preserve&quot;#gt;&lt;br/&gt;#lt;nl-NL#gt;Hoewel de term Patiënt niet in alle zorgsectoren gebruikt wordt, is er niet voor gekozen de naam van de zib te wijzigen in Persoon als overkoepelende aanduiding voor patiënt, cliënt, deelnemer, etc. omdat het begrip Persoon breder is dan het hier bedoelde concept. Zorgverleners en Contactpersonen zijn uiteindelijk ook personen.&lt;br/&gt;&lt;br/&gt;De naam en adresgegevens zijn gebaseerd op de gegevensset van de Gemeentelijk Basis Administratie (GBA) en op de Nederlandse implementatiehandleiding HL7v3 Basiscomponenten.&lt;br/&gt;&lt;br/&gt;De gegevens die bij de wettelijk verplichte verificatie van een BSN door de SBV-Z worden opgeleverd zijn eveneens conform de GBA specificatie.&lt;br/&gt;&lt;br/&gt;Daarnaast is bij het vaststellen van de set gekeken naar de in de AWBZ zorg gebruikte AZR (AWBZ-brede zorgregistratie) gegevensset.&lt;br/&gt;&lt;br/&gt;Gebruik van patiënt- en persoonsgegevens dient te voldoen aan de Wet Bescherming Persoonsgegevens. In deze wet wordt beschreven dat het verboden is om niet-noodzakelijke persoonsgegevens te verwerken en dat op een nadenkende en fatsoenlijke wijze met verkregen persoonsgegevens omgegaan wordt (Kohnstamm, 2006). Patiëntgegevens vastgelegd in een (elektronisch) patiëntendossier of in een elektronisch bericht dienen in de context van de Wet Bescherming Persoonsgegevens beschouwd te worden. Daarnaast dienen gezondheidszorginstellingen te voldoen aan de norm Informatiebeveiliging NEN 7510. Het toezicht op naleving van de WBP ligt bij het college Bescherming persoonsgegevens (CBP). Voor het toezicht op de informatiebeveiliging in de zorg zijn het CBP en de Inspectie voor de gezondheidszorg (IGZ) gezamenlijk verantwoordelijk (CBP, IGZ, 2008).&lt;br/&gt;Om die redenen zijn een aantal persoonsgegevens, die in sommige landen als administratieve gegevens beschouwd worden, niet in deze bouwsteen maar in de bouwstenen voor de Sociale Anamnese opgenomen.#lt;/nl-NL#gt;&lt;br/&gt;#lt;en-US#gt;Although the term Patient is not used in all care settings, it has been decided not to change the name of the zib to Person as the overall name for Patient, Client, Participant, etc. because the concept Person is broader than the concept referred to here. Healthprofessionals and contact persons are ultimately also Persons.&lt;br/&gt;The name and address information is based on the information set of the Municipal Personal Records Database (GBA) and on the Dutch Implementation Guide: HL7v3 Basic Components. &lt;br/&gt;&lt;br/&gt;The information for the legally required verification of a social security number provided by the SBV-Z also follows GBA specifications. &lt;br/&gt;&lt;br/&gt;Furthermore, the AZR (AWBZ-wide healthcare registration) data set used in AWBZ healthcare served as a base in determining the set. &lt;br/&gt;&lt;br/&gt;Use of patient and personal details must follow the Personal Data Protection Act. This law prohibits processing non-essential personal data and mandates decent and reasonable processing of obtained personal data (Kohnstamm, 2006). Patient data recorded in (electronic) patient records or in digital messages must be handled in the context of the Personal Data Protection Act. Furthermore, healthcare centers must meet the Information Security NEN 7510 standard. Observance of the PDPA is monitored by the Dutch Data Protection Authority (CBP). The CBP and the Healthcare Inspectorate (IGZ) are jointly responsible for monitoring information security in healthcare (CBP, IGZ, 2008). &lt;br/&gt;For those reasons, some personal data, seen in some countries as administrative data, are not included in this information model but in the information models for the Social Anamnesis.&lt;br/&gt;#lt;/en-US#gt;&lt;br/&gt;#lt;/languages#gt;&lt;br/&gt;</div>
+</span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">4-7-2009 12:17:18</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">19-3-2018 13:25:16</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Spruyt</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

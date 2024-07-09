@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>01. Informatiedomeinen</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 01. Informatiedomeinen </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Sectoren architectuur</a> / <a href="../../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../../EA17.htm">Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x</a> / <a href="../EA625.htm">Views</a> / <a href="EA826.htm">04. Informatiedomeinen</a> / <a href="EA724.htm">01. Informatiedomeinen</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA724.htm">01. Informatiedomeinen</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA726.htm">0101. Sturing - Strategie & Governance</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA728.htm">0102. Sturing - Planning & Control</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA730.htm">0103. Sturing - Innovatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA732.htm">0104. Sturing - Kwaliteitsmanagement</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA734.htm">0105. Sturing - Performancemanagement</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA736.htm">0106. Sturing - Verantwoording</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA738.htm">0107. Sturing - Marketing</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA740.htm">0201. Samenwerking - Participatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA742.htm">0202. Samenwerking - Verwijzing & Overdracht</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA744.htm">0301. Consultatie - Diagnosticering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA746.htm">0302. Consultatie - Advisering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA748.htm">0303. Consultatie - Behandelplanning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA750.htm">0401. Behandeing - Medicatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA752.htm">0402. Behandeing - Therapie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA754.htm">0403. Behandeing - Operatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA756.htm">0404. Behandeing - Verpleging</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA758.htm">0405. Behandeing - Verzorging</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA760.htm">0406. Behandeing - Overige behandelingen</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA762.htm">0501. Aanvullend onderzoek - KCL Onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA764.htm">0502. Aanvullend onderzoek - MMI Onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA766.htm">0503. Aanvullend onderzoek - Beeldvorming</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA768.htm">0504. Aanvullend onderzoek - Endoscopie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA770.htm">0505. Aanvullend onderzoek - Functie onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA772.htm">0506. Aanvullend onderzoek - Biopsie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA774.htm">0507. Aanvullend onderzoek - Genetisch onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA776.htm">0601. Zorgondersteuning - Zorgrelatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA778.htm">0602. Zorgondersteuning - Zorglogistiek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA780.htm">0603. Zorgondersteuning - Zorgfacturatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA782.htm">0604. Zorgondersteuning - Resourceplanning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA784.htm">0701. Onderzoek - Onderzoeksontwikkeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA786.htm">0702. Onderzoek - Onderzoeksvoorbereiding</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA788.htm">0703. Onderzoek - Onderzoeksuitvoering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA790.htm">0704. Onderzoek - Onderzoekspublicatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA792.htm">0705. Onderzoek - Onderzoeksvalorisatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA794.htm">0706. Onderzoek - Onderzoeksondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA796.htm">0801. Onderwijs - Onderwijs ontwikkeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA798.htm">0802. Onderwijs - Onderwijs uitvoering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA800.htm">0803. Onderwijs - Onderwijs toetsing</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA802.htm">0804. Onderwijs - Onderwijs ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA804.htm">0901. Bedrijfsondersteuning - Vastgoed- en middelenbeheer</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA806.htm">0902. Bedrijfsondersteuning - Personeel & Organisatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA808.htm">0903. Bedrijfsondersteuning - Inkoop en Goederenlogistiek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA810.htm">0904. Bedrijfsondersteuning - Financiële administratie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA812.htm">0905. Bedrijfsondersteuning - Juridische ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA814.htm">0906. Bedrijfsondersteuning - ICT</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA816.htm">0907. Bedrijfsondersteuning - Communicatie en Voorlichting</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA818.htm">0908. Bedrijfsondersteuning - Medische Technologie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA820.htm">0909. Bedrijfsondersteuning - Hospitality</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA822.htm">0910. Bedrijfsondersteuning - Veiligheid en Milieu</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA824.htm">0911. Bedrijfsondersteuning - Kennismanagement</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">01. Informatiedomeinen</div> -->
+    <div class=diagram_image> 
+<img src="EA725.png" usemap="#EA725" border="0" />
+
+<MAP NAME="EA725">
+<area shape="rect" coords="776,1377,881,1447" href="../../EA1/EA6/EA482.htm" target="_self">
+<area shape="rect" coords="607,1377,712,1447" href="../../EA1/EA6/EA469.htm" target="_self">
+<area shape="rect" coords="446,1377,551,1447" href="../../EA1/EA6/EA484.htm" target="_self">
+<area shape="rect" coords="292,1377,397,1447" href="../../EA1/EA6/EA451.htm" target="_self">
+<area shape="rect" coords="134,1377,239,1447" href="../../EA1/EA6/EA446.htm" target="_self">
+<area shape="rect" coords="824,1281,929,1351" href="../../EA1/EA6/EA450.htm" target="_self">
+<area shape="rect" coords="668,1281,773,1351" href="../../EA1/EA6/EA490.htm" target="_self">
+<area shape="rect" coords="512,1281,617,1351" href="../../EA1/EA6/EA478.htm" target="_self">
+<area shape="rect" coords="356,1281,461,1351" href="../../EA1/EA6/EA459.htm" target="_self">
+<area shape="rect" coords="200,1281,305,1351" href="../../EA1/EA6/EA465.htm" target="_self">
+<area shape="rect" coords="44,1281,149,1351" href="../../EA1/EA6/EA453.htm" target="_self">
+<area shape="rect" coords="26,1245,951,1474" href="../../EA1/EA8/EA1/EA601.htm" target="_self">
+<area shape="rect" coords="827,515,932,585" href="../../EA1/EA6/EA464.htm" target="_self">
+<area shape="rect" coords="827,419,932,489" href="../../EA1/EA6/EA457.htm" target="_self">
+<area shape="rect" coords="827,323,932,393" href="../../EA1/EA6/EA483.htm" target="_self">
+<area shape="rect" coords="827,227,932,297" href="../../EA1/EA6/EA463.htm" target="_self">
+<area shape="rect" coords="807,191,951,1224" href="../../EA1/EA8/EA1/EA602.htm" target="_self">
+<area shape="rect" coords="622,1092,727,1162" href="../../EA1/EA6/EA494.htm" target="_self">
+<area shape="rect" coords="499,1092,604,1162" href="../../EA1/EA6/EA488.htm" target="_self">
+<area shape="rect" coords="376,1092,481,1162" href="../../EA1/EA6/EA456.htm" target="_self">
+<area shape="rect" coords="253,1092,358,1162" href="../../EA1/EA6/EA471.htm" target="_self">
+<area shape="rect" coords="229,1054,745,1193" href="../../EA1/EA8/EA1/EA600.htm" target="_self">
+<area shape="rect" coords="555,932,660,1002" href="../../EA1/EA6/EA479.htm" target="_self">
+<area shape="rect" coords="437,932,542,1002" href="../../EA1/EA6/EA455.htm" target="_self">
+<area shape="rect" coords="319,932,424,1002" href="../../EA1/EA6/EA444.htm" target="_self">
+<area shape="rect" coords="624,847,729,917" href="../../EA1/EA6/EA475.htm" target="_self">
+<area shape="rect" coords="501,847,606,917" href="../../EA1/EA6/EA485.htm" target="_self">
+<area shape="rect" coords="378,847,483,917" href="../../EA1/EA6/EA474.htm" target="_self">
+<area shape="rect" coords="255,847,360,917" href="../../EA1/EA6/EA476.htm" target="_self">
+<area shape="rect" coords="231,816,747,1022" href="../../EA1/EA8/EA1/EA599.htm" target="_self">
+<area shape="rect" coords="623,693,728,763" href="../../EA1/EA6/EA491.htm" target="_self">
+<area shape="rect" coords="439,693,544,763" href="../../EA1/EA6/EA477.htm" target="_self">
+<area shape="rect" coords="255,693,360,763" href="../../EA1/EA6/EA461.htm" target="_self">
+<area shape="rect" coords="623,597,728,667" href="../../EA1/EA6/EA467.htm" target="_self">
+<area shape="rect" coords="439,597,544,667" href="../../EA1/EA6/EA489.htm" target="_self">
+<area shape="rect" coords="255,597,360,667" href="../../EA1/EA6/EA481.htm" target="_self">
+<area shape="rect" coords="232,559,747,784" href="../../EA1/EA8/EA1/EA598.htm" target="_self">
+<area shape="rect" coords="623,444,728,514" href="../../EA1/EA6/EA486.htm" target="_self">
+<area shape="rect" coords="438,444,543,514" href="../../EA1/EA6/EA470.htm" target="_self">
+<area shape="rect" coords="253,444,358,514" href="../../EA1/EA6/EA454.htm" target="_self">
+<area shape="rect" coords="229,397,747,530" href="../../EA1/EA8/EA1/EA597.htm" target="_self">
+<area shape="rect" coords="543,267,648,337" href="../../EA1/EA6/EA458.htm" target="_self">
+<area shape="rect" coords="332,267,437,337" href="../../EA1/EA6/EA473.htm" target="_self">
+<area shape="rect" coords="229,225,747,358" href="../../EA1/EA8/EA1/EA596.htm" target="_self">
+<area shape="rect" coords="205,190,773,1222" href="../../EA1/EA8/EA1/EA595.htm" target="_self">
+<area shape="rect" coords="44,705,149,775" href="../../EA1/EA6/EA487.htm" target="_self">
+<area shape="rect" coords="44,609,149,679" href="../../EA1/EA6/EA443.htm" target="_self">
+<area shape="rect" coords="44,513,149,583" href="../../EA1/EA6/EA448.htm" target="_self">
+<area shape="rect" coords="44,417,149,487" href="../../EA1/EA6/EA480.htm" target="_self">
+<area shape="rect" coords="44,321,149,391" href="../../EA1/EA6/EA468.htm" target="_self">
+<area shape="rect" coords="44,225,149,295" href="../../EA1/EA6/EA447.htm" target="_self">
+<area shape="rect" coords="26,189,170,1222" href="../../EA1/EA8/EA1/EA603.htm" target="_self">
+<area shape="rect" coords="824,85,929,155" href="../../EA1/EA6/EA462.htm" target="_self">
+<area shape="rect" coords="695,85,800,155" href="../../EA1/EA6/EA466.htm" target="_self">
+<area shape="rect" coords="566,85,671,155" href="../../EA1/EA6/EA452.htm" target="_self">
+<area shape="rect" coords="437,85,542,155" href="../../EA1/EA6/EA472.htm" target="_self">
+<area shape="rect" coords="308,85,413,155" href="../../EA1/EA6/EA445.htm" target="_self">
+<area shape="rect" coords="179,85,284,155" href="../../EA1/EA6/EA460.htm" target="_self">
+<area shape="rect" coords="50,85,155,155" href="../../EA1/EA6/EA449.htm" target="_self">
+<area shape="rect" coords="26,45,951,173" href="../../EA1/EA8/EA1/EA594.htm" target="_self">
+<area shape="rect" coords="10,10,969,1498" href="../../EA1/EA8/EA1/EA593.htm" target="_self">
+</MAP>
+ </br></div>
+	
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:15:38</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">18-6-2024 13:38:35</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+	</table>
+<div/>
+
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

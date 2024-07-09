@@ -1,0 +1,582 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Interoperbiliteitsdiensten</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Interoperbiliteitsdiensten </h1>
+			<!-- <img class="header_image" src="../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Sectoren architectuur</a> / <a href="../../EA1531.htm">Sectoren - uitzoeken</a> / <a href="../EA1825.htm">Other</a> / <a href="EA1833.htm">Diensten</a> / <a href="../../../../index.htm">{ }</a> / <a href="EA1834.htm">Interoperbiliteitsdiensten</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<a href="../../../../index.htm">{ }</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Interoperbiliteitsdiensten<!--  : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping --></span>
+	<span class="Note"><div class="ObjectDetailsNotes">Interoperabiliteitsdiensten leveren voorzieningen die gericht zijn op het realiseren van interoperabiliteit binnen de zorg.&lt;br/&gt;</div>
+</span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"><a href="../../EA5/EA6/EA1899.htm">Welkom</a></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:12:48</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:12:48</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"><a href="../../EA5/EA6/EA1899.htm">Welkom</a></td>
+		</tr>
+	</table>
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="100%" class="TableHeading">Element</td>
+					<!-- <td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1804.htm">«ArchiMate_Product» ZORG-AB</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3798" /></button>Details:
+							<div id="detailsDIVLink3798" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1795.htm">«ArchiMate_Product» Volgjezorg</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3799" /></button>Details:
+							<div id="detailsDIVLink3799" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1799.htm">«ArchiMate_Product» Basisgegevensset Zorg (BgZ)</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3800" /></button>Details:
+							<div id="detailsDIVLink3800" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1793.htm">«ArchiMate_Product» BgGGZ</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3801" /></button>Details:
+							<div id="detailsDIVLink3801" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1792.htm">«ArchiMate_Product» Jeugd- gezondheidszorg toepassingen</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3802" /></button>Details:
+							<div id="detailsDIVLink3802" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1803.htm">«ArchiMate_Product» Spoedverwijzing HAP-SEH</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3803" /></button>Details:
+							<div id="detailsDIVLink3803" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1796.htm">«ArchiMate_Product» LSP+</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3804" /></button>Details:
+							<div id="detailsDIVLink3804" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1805.htm">«ArchiMate_Product» Opvragen professionele samenvatting RAV & SEH</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3805" /></button>Details:
+							<div id="detailsDIVLink3805" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1791.htm">«ArchiMate_Product» LSP Ketenzorg</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3806" /></button>Details:
+							<div id="detailsDIVLink3806" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1797.htm">«ArchiMate_Product» Huisarts- waarneemgegevens</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3807" /></button>Details:
+							<div id="detailsDIVLink3807" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1794.htm">«ArchiMate_Product» Vooraankondiging medicatie- voorschriften</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3808" /></button>Details:
+							<div id="detailsDIVLink3808" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../EA4/EA1850.htm">«ArchiMate_Grouping» Sectoren / Samenwerkingsverbanden / Doelgroepen</a><br />
+						<!-- Grouping «ArchiMate_Serving»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3809" /></button>Details:
+							<div id="detailsDIVLink3809" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1798.htm">«ArchiMate_Product» Medicatiegegevens</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3810" /></button>Details:
+							<div id="detailsDIVLink3810" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1806.htm">«ArchiMate_Product» ZORG-ID</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3811" /></button>Details:
+							<div id="detailsDIVLink3811" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1801.htm">«ArchiMate_Product» Twiin Portaal</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3812" /></button>Details:
+							<div id="detailsDIVLink3812" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1800.htm">«ArchiMate_Product» Mitz</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3813" /></button>Details:
+							<div id="detailsDIVLink3813" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+				<tr>
+					<td width="100%" class="TableRow" valign="top">
+						<a href="../../EA1/EA9/EA1802.htm">«ArchiMate_Product» Koppeltaal</a><br />
+						<!-- Product «ArchiMate_Aggregation»  -->
+					</td>
+					<!-- <td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3814" /></button>Details:
+							<div id="detailsDIVLink3814" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td> -->
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA3/EA1848.htm">Referentiemodellen met zorgprocessen</a><br />
+						<!-- Boundary «ArchiMate_Influence» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">hebben impact op</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3815" /></button>Details:
+							<div id="detailsDIVLinkFlow3815" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Label</td>
+			<td width="50%" class="TableHeading">Waarde</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">archimate_element_identifier</td>
+				<td width="50%" class="TableRow" valign="top">EAID_875B24BE_44CC_46d3_B76E_0C6E66BF224E</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>
+	</table>
+</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sectoren achitecturen</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Sectoren achitecturen </h1>
+			<!-- <img class="header_image" src="../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EARoot/EA1.htm">Sectoren achitecturen</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../images/4.png" alt="Package"/> <a href="./EA1/EA5.htm">Sectoren</a></li>
+<li><img src="../images/4.png" alt="Package"/> <a href="./EA2/EA160.htm">Diensten (algemeen)</a></li>
+<li><img src="../images/4.png" alt="Package"/> <a href="./EA3/EA161.htm">Model (algemeen)</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Sectoren achitecturen<!--  : Public   Package --></span>
+	<span class="Note"><div class="ObjectDetailsNotes">Binnen deze omgeving zijn voor zo veel mogelijk sectoren architecturen uitgewerkt. Deze architecturen ondersteunen de sectorteams van VZVZ die via diverse views meer inzicht krijgen in hun sector.&lt;br/&gt;&lt;br/&gt;Voor de sectoren die erover beschikken gebruiken we de &lt;a href=&quot;https://nictiz.nl/standaarden/referentiedomeinenmodellen/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;referentiedomeinmodellen&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; als gezamenlijk startpunt.&lt;br/&gt;&lt;br/&gt;We beschrijven binnen deze architectuur diverse onderwerpen met relevantie voor een sector zoals:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Landelijke oplossingen voor informatie-uitwisseling&lt;/li&gt;&lt;li&gt;Landelijke afspraken over informatie-uitwisseling&lt;/li&gt;&lt;li&gt;Landelijke programma&#39;s met betrekking tot informatie-uitwisseling&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Waar mogelijk linken we naar andere (federatieve) architecturen en naar specifieke product architecturen en ontwerpen.&lt;br/&gt;</div>
+</span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">9-7-2024 10:15:44</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">9-7-2024 11:06:22</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

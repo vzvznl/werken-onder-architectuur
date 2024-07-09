@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.1", "1", "01. Zorgdiensten", "EARoot/EA3/EA2/EA2/EA1/EA633.htm", "4.png", "", "", "{A14FF928-FD0D-4707-80D8-E099021D6625}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2.2", "1", "02. Zorgprocessen", "EARoot/EA3/EA2/EA2/EA2/EA650.htm", "4.png", "", "", "{3BF5E684-6AF2-4c05-B85A-295A4F463D94}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2.3", "1", "03. Werkprocessen", "EARoot/EA3/EA2/EA2/EA3/EA651.htm", "4.png", "", "", "{576C7248-52A2-4e9e-A206-A2795CC1FD92}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2.4", "1", "04. Informatiedomeinen", "EARoot/EA3/EA2/EA2/EA4/EA826.htm", "4.png", "", "", "{4B27E570-852A-4073-BC7A-58CF3E9615B5}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2.5", "1", "10. Applicatiefuncties", "EARoot/EA3/EA2/EA2/EA5/EA829.htm", "4.png", "", "", "{5A65AB91-EC22-4804-828C-1B49BAA17FA7}", "Package");

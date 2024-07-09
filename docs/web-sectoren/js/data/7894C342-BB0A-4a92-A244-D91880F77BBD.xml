@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "01. Sectoren, samenwerkingsverbanden, doelgroepen", "EARoot/EA1/EA1.htm", "4.png", "", "", "{776BF9C6-1BA3-431c-B00F-F6B549680B17}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "", "02. Diensten VZVZ", "EARoot/EA2/EA6.htm", "4.png", "", "", "{F2C9EC14-C064-4b4f-89C2-FD35FDA2F577}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "99. Referentiedomeinmodellen", "EARoot/EA3/EA7.htm", "4.png", "", "", "{F9DB172A-BBD8-47b8-AC5B-33F0DD86AEB6}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Model", "EARoot/EA4/EA1518.htm", "34.png", "", "", "{9B772F8D-C609-4811-9A97-5416BC86B3AF}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Sectoren - uitzoeken", "EARoot/EA5/EA1531.htm", "34.png", "", "", "{4E43AC06-04C3-4dcb-A75D-726F35238513}", "Package");

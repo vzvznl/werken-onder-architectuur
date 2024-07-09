@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.1", "", "Motivation & Strategie", "EARoot/EA1/EA2/EA1/EA1/EA38.htm", "4.png", "", "", "{79D31591-1151-455f-A324-9818BDEBE5F8}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.2", "", "Implementation & Migration", "EARoot/EA1/EA2/EA1/EA2/EA39.htm", "4.png", "", "", "{6423C7FB-4BA6-49d5-848D-3092E5227812}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.3", "", "Business", "EARoot/EA1/EA2/EA1/EA3/EA40.htm", "4.png", "", "", "{ECB218C9-95E0-4eb1-BBD2-CE7796BC98F8}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.4", "", "Application", "EARoot/EA1/EA2/EA1/EA4/EA41.htm", "4.png", "", "", "{6FEA0CAD-1782-4658-90AD-0DCA669F02B5}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.5", "", "Technology", "EARoot/EA1/EA2/EA1/EA5/EA42.htm", "4.png", "", "", "{6991FDD8-C9E1-470a-B8EC-29501E76091F}", "Package");

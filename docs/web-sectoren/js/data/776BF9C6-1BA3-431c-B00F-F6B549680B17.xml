@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.1", "", "Geestelijkegezondheidszorg", "EARoot/EA1/EA1/EA4.htm", "4.png", "", "", "{B0F7C3F4-AF61-457f-9AAF-B02170245727}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "", "Gehandicaptenzorg", "EARoot/EA1/EA2/EA5.htm", "4.png", "", "", "{939236DC-C48C-40fa-B594-1CD2DD647817}", "Package");

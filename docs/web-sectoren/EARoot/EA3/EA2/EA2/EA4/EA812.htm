@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>0905. Bedrijfsondersteuning - Juridische ondersteuning</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 0905. Bedrijfsondersteuning - Juridische ondersteuning </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Sectoren architectuur</a> / <a href="../../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../../EA17.htm">Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x</a> / <a href="../EA625.htm">Views</a> / <a href="EA826.htm">04. Informatiedomeinen</a> / <a href="EA812.htm">0905. Bedrijfsondersteuning - Juridische ondersteuning</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA724.htm">01. Informatiedomeinen</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA726.htm">0101. Sturing - Strategie & Governance</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA728.htm">0102. Sturing - Planning & Control</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA730.htm">0103. Sturing - Innovatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA732.htm">0104. Sturing - Kwaliteitsmanagement</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA734.htm">0105. Sturing - Performancemanagement</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA736.htm">0106. Sturing - Verantwoording</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA738.htm">0107. Sturing - Marketing</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA740.htm">0201. Samenwerking - Participatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA742.htm">0202. Samenwerking - Verwijzing & Overdracht</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA744.htm">0301. Consultatie - Diagnosticering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA746.htm">0302. Consultatie - Advisering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA748.htm">0303. Consultatie - Behandelplanning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA750.htm">0401. Behandeing - Medicatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA752.htm">0402. Behandeing - Therapie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA754.htm">0403. Behandeing - Operatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA756.htm">0404. Behandeing - Verpleging</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA758.htm">0405. Behandeing - Verzorging</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA760.htm">0406. Behandeing - Overige behandelingen</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA762.htm">0501. Aanvullend onderzoek - KCL Onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA764.htm">0502. Aanvullend onderzoek - MMI Onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA766.htm">0503. Aanvullend onderzoek - Beeldvorming</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA768.htm">0504. Aanvullend onderzoek - Endoscopie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA770.htm">0505. Aanvullend onderzoek - Functie onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA772.htm">0506. Aanvullend onderzoek - Biopsie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA774.htm">0507. Aanvullend onderzoek - Genetisch onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA776.htm">0601. Zorgondersteuning - Zorgrelatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA778.htm">0602. Zorgondersteuning - Zorglogistiek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA780.htm">0603. Zorgondersteuning - Zorgfacturatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA782.htm">0604. Zorgondersteuning - Resourceplanning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA784.htm">0701. Onderzoek - Onderzoeksontwikkeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA786.htm">0702. Onderzoek - Onderzoeksvoorbereiding</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA788.htm">0703. Onderzoek - Onderzoeksuitvoering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA790.htm">0704. Onderzoek - Onderzoekspublicatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA792.htm">0705. Onderzoek - Onderzoeksvalorisatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA794.htm">0706. Onderzoek - Onderzoeksondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA796.htm">0801. Onderwijs - Onderwijs ontwikkeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA798.htm">0802. Onderwijs - Onderwijs uitvoering</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA800.htm">0803. Onderwijs - Onderwijs toetsing</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA802.htm">0804. Onderwijs - Onderwijs ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA804.htm">0901. Bedrijfsondersteuning - Vastgoed- en middelenbeheer</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA806.htm">0902. Bedrijfsondersteuning - Personeel & Organisatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA808.htm">0903. Bedrijfsondersteuning - Inkoop en Goederenlogistiek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA810.htm">0904. Bedrijfsondersteuning - Financiële administratie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA812.htm">0905. Bedrijfsondersteuning - Juridische ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA814.htm">0906. Bedrijfsondersteuning - ICT</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA816.htm">0907. Bedrijfsondersteuning - Communicatie en Voorlichting</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA818.htm">0908. Bedrijfsondersteuning - Medische Technologie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA820.htm">0909. Bedrijfsondersteuning - Hospitality</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA822.htm">0910. Bedrijfsondersteuning - Veiligheid en Milieu</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA824.htm">0911. Bedrijfsondersteuning - Kennismanagement</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">0905. Bedrijfsondersteuning - Juridische ondersteuning</div> -->
+    <div class=diagram_image> 
+<img src="EA813.png" usemap="#EA813" border="0" />
+
+<MAP NAME="EA813">
+<area shape="rect" coords="26,142,131,212" href="../../EA1/EA5/EA335.htm" target="_self">
+<area shape="rect" coords="148,141,253,211" href="../../EA1/EA5/EA292.htm" target="_self">
+<area shape="rect" coords="26,57,131,127" href="../../EA1/EA4/EA205.htm" target="_self">
+<area shape="rect" coords="148,55,253,125" href="../../EA1/EA4/EA164.htm" target="_self">
+<area shape="rect" coords="10,10,272,232" href="../../EA1/EA6/EA490.htm" target="_self">
+</MAP>
+ </br></div>
+	
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:14:58</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">18-6-2024 12:53:33</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+	</table>
+<div/>
+
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

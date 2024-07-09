@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.5.1.7:1", "", "Sector(en)", "EARoot/EA5/EA1/EA7/EA1682.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E100046", "0", "", "Class0","{71F4C92F-7B43-4648-B27E-38CAB0E25D41}");
+tocTab[tocTab.length] = new Array("0.5.1.7:2", "", "Bedrijfsfuncties/ infomatiedomeinen", "EARoot/EA5/EA1/EA7/EA1683.htm", "9F0DDA8A-5_ArchiMate_BusinessFunction.png", "E100047", "0", "", "Activity0","{8B9E9986-1573-4755-B460-59CD0D051505}");
+tocTab[tocTab.length] = new Array("0.5.1.7:3", "", "Informatie object", "EARoot/EA5/EA1/EA7/EA1684.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E100048", "0", "", "Class0","{5BE0DEF2-C5AB-45e2-9C64-A37D393B76F7}");
+tocTab[tocTab.length] = new Array("0.5.1.7:4", "", "Zib concept(en)", "EARoot/EA5/EA1/EA7/EA1685.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E100049", "0", "", "Class0","{C4933435-871E-4b09-B7CC-96D9F11A1546}");
+tocTab[tocTab.length] = new Array("0.5.1.7:5", "", "Informatiestandaard concept(en)", "EARoot/EA5/EA1/EA7/EA1686.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E100050", "0", "", "Class0","{0A475A69-E389-400f-806C-393C36BEB43F}");
+tocTab[tocTab.length] = new Array("0.5.1.7:6", "", "(Zorg)activiteiten", "EARoot/EA5/EA1/EA7/EA1687.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E100051", "0", "", "Activity0","{5B462DEE-02E6-4dff-9B2A-7192F1AF6A5D}");
+tocTab[tocTab.length] = new Array("0.5.1.7:7", "", "Diensten", "EARoot/EA5/EA1/EA7/EA1688.htm", "9F0DDA8A-5_ArchiMate_Product.png", "E100052", "0", "", "Class0","{D579A6F3-EC5B-416e-9F08-7EB2F005F254}");

@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>nl.zorg.Patient-v3.2</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> nl.zorg.Patient-v3.2 </h1>
+			<!-- <img class="header_image" src="../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">html publicatie test</a> / <a href="../EA46.htm">02. Ontwerp</a> / <a href="EA52.htm">02. Zib 2020</a> / <a href="./EA1/EA54.htm">nl.zorg.Patient-v3.2</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA1/EA75.htm">Revision History</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA2/EA76.htm">Concept</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA3/EA77.htm">Mindmap</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA4/EA78.htm">Purpose</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA5/EA79.htm">Patient Population</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA6/EA80.htm">Evidence Base</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA7/EA81.htm">Information Model</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA8/EA84.htm">Example Instances</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA9/EA86.htm">Instructions</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA10/EA87.htm">Interpretation</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA11/EA88.htm">Care Process</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA12/EA89.htm">Example of the Instrument</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA13/EA90.htm">Constraints</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA14/EA91.htm">Issues</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA15/EA92.htm">References</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA16/EA93.htm">Functional Model</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA17/EA94.htm">Traceability to other Standards</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA18/EA95.htm">Disclaimer</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA19/EA96.htm">Terms of Use</a></li>
+<li><img src="../../../images/4.png" alt="Package"/> <a href="./EA1/EA20/EA97.htm">Copyrights</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">nl.zorg.Patient-v3.2<!-- EN: nl.zorg.Patient : Public  &lt;&lt;DCM&gt;&gt; Package --></span>
+	<span class="Note"></span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">19-9-2009 00:00:00</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">16-7-2020 00:24:58</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Spruyt</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+		</ul>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Label</td>
+			<td width="50%" class="TableHeading">Waarde</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::CoderList</td>
+				<td width="50%" class="TableRow" valign="top">Kerngroep Registratie aan de Bron</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ContactInformation.Address</td>
+				<td width="50%" class="TableRow" valign="top">*</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ContactInformation.Name</td>
+				<td width="50%" class="TableRow" valign="top">*</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">The contact information where questions can be asked or feedback can be send to.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ContactInformation.Telecom</td>
+				<td width="50%" class="TableRow" valign="top">*</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ContentAuthorList</td>
+				<td width="50%" class="TableRow" valign="top">Projectgroep Generieke Overdrachtsgegevens & Kerngroep Registratie aan de Bron</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::CreationDate</td>
+				<td width="50%" class="TableRow" valign="top">14-6-2012</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::DescriptionLanguage</td>
+				<td width="50%" class="TableRow" valign="top">nl</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::EndorsingAuthority.Name</td>
+				<td width="50%" class="TableRow" valign="top">PM</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::Id</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.60.40.3.0.1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::KeywordList</td>
+				<td width="50%" class="TableRow" valign="top">Patient, zorgverlener, contact</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).<br />Concepts and identifications from MeSH Heading can also be mentioned here.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::LifecycleStatus</td>
+				<td width="50%" class="TableRow" valign="top">Final</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ModelerList</td>
+				<td width="50%" class="TableRow" valign="top">Kerngroep Registratie aan de Bron</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::Name</td>
+				<td width="50%" class="TableRow" valign="top">nl.zorg.Patient</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::PublicationDate</td>
+				<td width="50%" class="TableRow" valign="top">01-09-2020</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">The date this version was made.</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::PublicationStatus</td>
+				<td width="50%" class="TableRow" valign="top">Published</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						<div class="ObjectDetailsNotes">The status of the DCM on that moment. Strike out the other status.<br />All status levels are mentioned after the process of development and review are clear (concept).<br /><br />Author Draft(en);<br />Committee Draft(en);<br />Organisation Draft(en);<br />Submitted(en);<br />Withdrawn<br />Rejected(en) <br />Obsolete<br />Approved for testing<br />Approved for Production Use<br />Superseded</div>
+
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::ReviewerList</td>
+				<td width="50%" class="TableRow" valign="top">Projectgroep Generieke Overdrachtsgegevens & Kerngroep Registratie aan de Bron</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::RevisionDate</td>
+				<td width="50%" class="TableRow" valign="top">16-07-2020</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::Supersedes</td>
+				<td width="50%" class="TableRow" valign="top">nl.zorg.Patient-v3.1.1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">DCM::Version</td>
+				<td width="50%" class="TableRow" valign="top">3.2</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>
+	</table>
+</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

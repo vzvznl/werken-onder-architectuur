@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:1", "", "02. Plannen onderzoek", "EARoot/EA3/EA2/EA2/EA3/EA6/EA706.htm", "175.png", "15048", "0", "", "Logical diagram0","{81F96263-FA89-43c6-9047-AA41A72714F6}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:2", "", "03. Voorbereiden onderzoek", "EARoot/EA3/EA2/EA2/EA3/EA6/EA708.htm", "175.png", "15049", "0", "", "Logical diagram0","{96504907-6375-421d-B93A-B8B5E42C505C}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:3", "", "04. Uitvoeren onderzoek", "EARoot/EA3/EA2/EA2/EA3/EA6/EA710.htm", "175.png", "15050", "0", "", "Logical diagram0","{76C68E36-5B4A-4aef-9018-0C5382ADDC24}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:4", "", "06. Rapporteren resultaat", "EARoot/EA3/EA2/EA2/EA3/EA6/EA712.htm", "175.png", "15051", "0", "", "Logical diagram0","{C1AB9986-CB98-4098-9CE6-A9B9CD4066EB}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:5", "", "01. Beoordelen onderzoekaanvraag", "EARoot/EA3/EA2/EA2/EA3/EA6/EA714.htm", "175.png", "15052", "0", "", "Logical diagram0","{4ED29912-E90C-4fba-A946-B35733DF200D}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.6:6", "", "05. Beoordelen resultaat", "EARoot/EA3/EA2/EA2/EA3/EA6/EA716.htm", "175.png", "15053", "0", "", "Logical diagram0","{9AFAE5B7-EC13-43cc-A044-F760394F53AE}");

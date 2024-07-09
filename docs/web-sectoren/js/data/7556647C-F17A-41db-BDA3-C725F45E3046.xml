@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.3.2:1", "", "01. Voorbereiden contact", "EARoot/EA3/EA2/EA2/EA3/EA2/EA666.htm", "175.png", "15061", "0", "", "Logical diagram0","{DAEA3ED2-A3F7-49f5-83FA-D16F27873F67}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.2:2", "", "02. Ontvangen patient", "EARoot/EA3/EA2/EA2/EA3/EA2/EA668.htm", "175.png", "15062", "0", "", "Logical diagram0","{669CD37A-6F0C-4a12-9425-F99A40727888}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.2:3", "", "03. Verzamelen aanvullende informatie", "EARoot/EA3/EA2/EA2/EA3/EA2/EA670.htm", "175.png", "15060", "0", "", "Logical diagram0","{A4FAC054-FF08-431e-8A60-69110EB02F4E}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.2:4", "", "04. Beoordelen informatie", "EARoot/EA3/EA2/EA2/EA3/EA2/EA672.htm", "175.png", "15059", "0", "", "Logical diagram0","{0DDACC75-3A32-46e3-A34E-E7C4CC50C305}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.2:5", "", "05. Stellen diagnose", "EARoot/EA3/EA2/EA2/EA3/EA2/EA674.htm", "175.png", "15063", "0", "", "Logical diagram0","{5187A2BC-012A-4bd7-AA1E-88B5BBD7CDFD}");

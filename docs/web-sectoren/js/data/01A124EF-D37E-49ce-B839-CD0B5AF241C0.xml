@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.1.1", "1", "Burgers", "EARoot/EA1/EA1/EA17.htm", "4.png", "", "", "{60450003-44B5-4c83-8502-F7DB31CA4708}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "Diagnostische centra", "EARoot/EA1/EA2/EA30.htm", "4.png", "", "", "{FE5F3AB9-0477-456e-AB6A-B8EE465C94D3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3", "1", "Farmacie", "EARoot/EA1/EA3/EA43.htm", "4.png", "", "", "{AD406E1F-5778-474b-8126-5B0793A4164C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4", "1", "Geestelijke gezondheidszorg", "EARoot/EA1/EA4/EA56.htm", "4.png", "", "", "{B31C2018-8242-4875-959C-F51EA86B4392}", "Package");
+tocTab[tocTab.length] = new Array("0.1.5", "1", "Gehandicaptenzorg", "EARoot/EA1/EA5/EA69.htm", "4.png", "", "", "{9E7E0F41-EEFA-4b74-8520-BBD0DA7CA1B4}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6", "1", "Huisartsenzorg", "EARoot/EA1/EA6/EA82.htm", "4.png", "", "", "{220AE08C-CF7D-4289-AAB8-6AF2AC703711}", "Package");
+tocTab[tocTab.length] = new Array("0.1.7", "1", "Jeugdgezondheidszorg", "EARoot/EA1/EA7/EA95.htm", "4.png", "", "", "{877893C2-CF30-4e3d-8296-B2C918D4A39B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8", "1", "Medisch Specialistische zorg", "EARoot/EA1/EA8/EA108.htm", "4.png", "", "", "{31D8CA43-17BA-4529-B6C8-FA2D77291C58}", "Package");
+tocTab[tocTab.length] = new Array("0.1.9", "1", "Mondzorg", "EARoot/EA1/EA9/EA121.htm", "4.png", "", "", "{B735EDD7-7394-4f0e-944A-AF6CBC889150}", "Package");
+tocTab[tocTab.length] = new Array("0.1.10", "1", "Trombosezorg", "EARoot/EA1/EA10/EA134.htm", "4.png", "", "", "{450CB8F9-E0AF-4bd2-88FD-25087366F850}", "Package");
+tocTab[tocTab.length] = new Array("0.1.11", "1", "Verpleging, verzorging, thuiszorg", "EARoot/EA1/EA11/EA147.htm", "4.png", "", "", "{F1E16091-C8FC-4baa-B182-4459DA6979F4}", "Package");

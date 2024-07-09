@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2.2.1:1", "", "Inzien resultaten interventies", "EARoot/EA5/EA2/EA2/EA1/EA1818.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100265", "0", "", "Activity0","{BF9E02FD-3376-4483-AE61-4302051750F1}");
+tocTab[tocTab.length] = new Array("0.5.2.2.1:2", "", "Volgen voortgang interventies", "EARoot/EA5/EA2/EA2/EA1/EA1819.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100266", "0", "", "Activity0","{6966BBFF-6DCB-4629-AF45-8127A80BE3CD}");
+tocTab[tocTab.length] = new Array("0.5.2.2.1:3", "", "Uitvoeren interventies", "EARoot/EA5/EA2/EA2/EA1/EA1820.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100267", "0", "", "Activity0","{F9E8A946-647C-4f1a-B07C-2F5D28FD15AB}");
+tocTab[tocTab.length] = new Array("0.5.2.2.1:4", "", "Toewijzen interventies", "EARoot/EA5/EA2/EA2/EA1/EA1821.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100268", "0", "", "Activity0","{EFECBD36-6E81-4984-A160-06ACCB89B3B0}");

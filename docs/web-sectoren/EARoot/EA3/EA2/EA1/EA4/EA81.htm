@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>04. (Zorg)activiteiten</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 04. (Zorg)activiteiten </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Sectoren architectuur</a> / <a href="../../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../../EA17.htm">Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x</a> / <a href="../EA20.htm">Elementen</a> / <a href="EA81.htm">04. (Zorg)activiteiten</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA82.htm">Uitvoeren marktanalyse</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA83.htm">Bemiddeling klachten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA84.htm">Beschikbaar stellen verslag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA85.htm">Verwijzen patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA86.htm">Bepalen productieafspraken</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA87.htm">Voorbereiden middelen voor behandeling</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA88.htm">Administratief ondersteunen van onderzoeken</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA89.htm">Bepalen verpleegdoel (outcome)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA90.htm">Uitvoeren therapie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA91.htm">Uitvoeren aanvullend onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA92.htm">Ondersteunen doorstroom</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA93.htm">Uitvoeren verpleegplan</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA94.htm">Indienen onderzoeksaanvraag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA95.htm">Beheren van het vermogen (Treasury)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA96.htm">Begeleiden deelnemers</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA97.htm">Verwerken aanvraag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA98.htm">Opstellen overdracht</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA99.htm">Ondersteunen uitstroom</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA100.htm">Aanvragen collegiaal consult</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA101.htm">Verplaatsen personen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA102.htm">Beheren vervoersmiddelen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA103.htm">Exploiteren gebouw</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA104.htm">Plannen afspraak</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA105.htm">Beheren gegevens zorgaanbieders</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA106.htm">Evalueren therapie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA107.htm">Afronden behandeling</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA108.htm">Vastleggen verrichting</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA109.htm">Bepalen behandelmogelijkheden</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA110.htm">Opstellen onderzoeksprotocol</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA111.htm">Afnemen verpleegkundige anamnese</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA112.htm">Bepalen strategie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA113.htm">Controleren behandeling</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA114.htm">Bepalen missie en visie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA115.htm">Voorbereiden patiënt voor behandeling</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA116.htm">Patiëntselectie en rekrutering</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA117.htm">Voorschrijven medicatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA118.htm">Fondsenwerving en sponsoring</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA119.htm">Bepalen behandeladvies</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA120.htm">Verzamelen onderzoeksdata en materiaal</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA121.htm">Bepalen behandelaar</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA122.htm">Ondersteunen gebruik medische apparatuur</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA123.htm">Terugkoppelen voor de patiënt relevante resultaten aan de patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA124.htm">Beheren gegevens zorgverzekeraars</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA125.htm">Uitvoeren eigen onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA126.htm">Controleren  wet- en regelgeving</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA127.htm">Controleren materiaalgegevens</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA128.htm">Beheren kennis</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA129.htm">Aanvragen aanvullend onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA130.htm">Beoordelen patiëntendossier</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA131.htm">Aanvragen vergunningen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA132.htm">Inhoudelijk ondersteunen van het onderzoek (assistentie)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA133.htm">Bewaken kwaliteit en veiligheid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA134.htm">Bepalen verpleegkundige diagnose</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA135.htm">Ontvangen patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA136.htm">Werven van deelnemers</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA137.htm">Bereiden medicatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA138.htm">Beoordelen resultaat collegiaal of extern consult</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA139.htm">Evalueren verpleegresultaat</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA140.htm">Afnemen lichaamsmateriaal</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA141.htm">Publiceren onderzoeksresultaten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA142.htm">Beheren gegevens zorgverleners</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA143.htm">Samenstellen onderwijsprogramma</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA144.htm">Beheren deelnemersgegevens</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA145.htm">Ontwikkelen producten en diensten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA146.htm">Voorbereiden operatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA147.htm">Verwerken voorschrift</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA148.htm">Uitvoeren operatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA149.htm">Voorlichten in- en extern</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA150.htm">Aanvragen activiteit</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA151.htm">Beoordelen resultaat aanvullend onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA152.htm">Notificeren van aanvrager</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA153.htm">Beheren voorraad</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA154.htm">Beschikbaar stellen patiëntinformatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA155.htm">Ondersteunen instroom</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA156.htm">Voorlichten patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA157.htm">Toedienen/gebruiken medicatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA158.htm">Plannen resources voor onderwijs</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA159.htm">Aanvragen externe financiering</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA160.htm">Beheren salarisadministratie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA161.htm">Beoordelen onderzoeksaanvraag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA162.htm">Bepalen verpleegplan</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA163.htm">Inhoudelijk toetsen onderwijs</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA164.htm">Opstellen en toetsen juridisch beleid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA165.htm">Plannen overplaatsing</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA166.htm">Strategisch inkopen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA167.htm">Operationeel inkopen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA168.htm">Ontwikkelen ICT</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA169.htm">Voorbereiden behandelruimte</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA170.htm">Beheren productieplanning</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA171.htm">Aanleveren gegevens aan externe partijen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA172.htm">Vaststellen behandelplan</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA173.htm">Bepalen therapiedoel</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA174.htm">Factureren zorgproduct</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA175.htm">Ontwikkelen Enterprise Architectuur</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA176.htm">Beheren KPI''s</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA177.htm">Onderhouden contacten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA178.htm">Opnemen publicatie in publicatielijst</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA179.htm">Regisseren beheer en onderhoud gebouw en inventaris</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA180.htm">Accepteren advies aanvraag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA181.htm">Beheren patiëntgegevens</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA182.htm">Identificeren patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA183.htm">Informeren patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA184.htm">Bepalen therapeutische diagnose</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA185.htm">Opstellen onderzoeksvoorstel</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA186.htm">Programmamanagement</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA187.htm">Steriliseren van materialen, instrumenten en apparatuur</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA188.htm">Onderhoud medische technologie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA189.htm">Onderwijs geven</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA190.htm">Controle op naleving onderzoeksprotocollen (GCP)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA191.htm">Uitvoeren behandeling</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA192.htm">Verantwoorden prestaties</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA193.htm">Opstellen verslag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA194.htm">Bepalen innovatieagenda</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA195.htm">Afnemen therapeutische anamnese</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA196.htm">Afnemen anamnese</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA197.htm">Bepalen diagnose</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA198.htm">Evalueren onderwijs</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA199.htm">Voorbereiden verzorging</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA200.htm">Medisch ethische toetsing (METC)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA201.htm">Beheren van gegevens</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA202.htm">Opstellen operatieverslag</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA203.htm">Adviseren patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA204.htm">Beheren kwaliteits- en veiligheidsdocumenten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA205.htm">Geven juridisch advies</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA206.htm">Beheren patientdossier</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA207.htm">Voorbereiden contact</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA208.htm">Plannen onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA209.htm">Opvragen / Ontvangen extra informatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA210.htm">Bepalen zorgbehoefte</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA211.htm">Beheren en exploiteren van ICT diensten</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA212.htm">Plannen verzorging</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA213.htm">Beheren financiële administratie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA214.htm">Beheren beleid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA215.htm">Verzorgen patiënt</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA216.htm">Verkrijgen patiënt consent</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA217.htm">Aanbieden hotelservice</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA218.htm">Plannen van  de locatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA219.htm">Samenbrengen vraag en aanbod</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA220.htm">Ontwikkelen onderzoeksdataset</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA221.htm">Toewijzen aan zorgverlener</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA222.htm">Reserveren hotelservice</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA223.htm">Onderwijs ontvangen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA224.htm">Afronden verzorgingsverzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA225.htm">Verkrijgen informed consent</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA226.htm">Uitvoeren preoperatieve screening</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA227.htm">Beheren technische installaties</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA228.htm">Beoordelen zelfmanagementinformatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA229.htm">Beheren kwaliteit en veiligheid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA230.htm">Afleveren medicatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA231.htm">Bewaken medicatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA232.htm">Evalueren zorg</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA233.htm">Bewaken Arbeidsomstandigheden (ARBO)</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA234.htm">Beoordelen uitslag (aanvullend of eigen) onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA235.htm">Administreren personeelsinformatie</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA236.htm">Bepalen beleid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA237.htm">Plannen activiteit</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA238.htm">Plannen middelen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA239.htm">Plannen personen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA240.htm">Valoriseren onderzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA241.htm">Adviseren m.b.t. gebouw en inventaris</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA242.htm">Beoordelen verwijzing</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA243.htm">Bewerking en analyse onderzoeksgegevens</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA244.htm">Verwerken verzorgingverzoek</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA245.htm">Verplaatsen middelen</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA246.htm">Verantwoorden maatschappelijk ondernemerschap</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA247.htm">Zoeken naar kennis</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA248.htm">Accepteren verwijzing</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA249.htm">Bepalen overdracht / transferbeleid</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA250.htm">Bewaken Milieu</a></li>
+<li><img src="../../../../../images/21.png" alt="Activity"/> <a href="EA251.htm">Bepalen therapieplan</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">04. (Zorg)activiteiten<!--  : Public   Package --></span>
+	<span class="Note"></span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:10:34</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:35:19</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:1", "", "01. Voorbereiden behandeling", "EARoot/EA3/EA2/EA2/EA3/EA4/EA684.htm", "175.png", "15073", "0", "", "Logical diagram0","{BC4D6961-09AB-4281-BBEB-8EB476885FC4}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:2", "", "02a. Uitvoeren therapie", "EARoot/EA3/EA2/EA2/EA3/EA4/EA686.htm", "175.png", "15072", "0", "", "Logical diagram0","{9EE697BD-7DD1-42dd-89D2-DD346F1C26F8}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:3", "", "02b. Uitvoeren medicamenteuze therapie", "EARoot/EA3/EA2/EA2/EA3/EA4/EA688.htm", "175.png", "15071", "0", "", "Logical diagram0","{ECEACD8E-9E6F-45c5-8BA9-36293CA184FF}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:4", "", "02c. Uitvoeren operatieve behandeling", "EARoot/EA3/EA2/EA2/EA3/EA4/EA690.htm", "175.png", "15074", "0", "", "Logical diagram0","{0BBACAF7-5F06-4ed8-8A54-690ADCA14DAB}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:5", "", "02d. Uitvoeren (overige) medische behandeling", "EARoot/EA3/EA2/EA2/EA3/EA4/EA692.htm", "175.png", "15069", "0", "", "Logical diagram0","{93474E21-0E16-49a8-8CF1-F7E037DD86DF}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:6", "", "02e. Uitvoeren verpleegkundige zorg", "EARoot/EA3/EA2/EA2/EA3/EA4/EA694.htm", "175.png", "15068", "0", "", "Logical diagram0","{5757014D-C172-425e-AD9E-B4126ECE606D}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:7", "", "02f. Uitvoeren verzorging", "EARoot/EA3/EA2/EA2/EA3/EA4/EA696.htm", "175.png", "15067", "0", "", "Logical diagram0","{1CC95AA7-F8B4-46ad-A833-289F33ED6DB2}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.4:8", "", "03. Evalueren behandeling", "EARoot/EA3/EA2/EA2/EA3/EA4/EA698.htm", "175.png", "15070", "0", "", "Logical diagram0","{A28FB1D9-6714-4835-AE9D-5966E12A4A02}");

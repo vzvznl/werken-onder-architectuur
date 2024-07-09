@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.1", "1", "Informatiedomeinen", "EARoot/EA3/EA4/EA2/EA1/EA1267.htm", "4.png", "", "", "{DA601D29-3831-48ff-8761-144025A885C2}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4.2.2", "1", "Activiteiten", "EARoot/EA3/EA4/EA2/EA2/EA1301.htm", "4.png", "", "", "{B2A13A58-0DA6-44ab-AC1D-3BEEC9FDB83B}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4.2.3", "1", "Informatie objecten", "EARoot/EA3/EA4/EA2/EA3/EA1397.htm", "4.png", "", "", "{4A45EECC-D2E6-452b-97D2-E9205C34E49F}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4.2.4", "1", "Groepen", "EARoot/EA3/EA4/EA2/EA4/EA1511.htm", "4.png", "", "", "{22BF557F-F912-4ac7-852B-10B2AC8C88FD}", "Package");

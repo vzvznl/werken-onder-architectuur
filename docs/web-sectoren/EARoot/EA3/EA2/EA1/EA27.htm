@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>10. Applicatiefuncties</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 10. Applicatiefuncties </h1>
+			<!-- <img class="header_image" src="../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Sectoren architectuur</a> / <a href="../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../EA17.htm">Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x</a> / <a href="EA20.htm">Elementen</a> / <a href="./EA7/EA495.htm">10. Applicatiefuncties</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA496.htm">Patientenlogistiek</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA497.htm">Dossier inzage</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA498.htm">Gegevensuitwisseling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA499.htm">ICT-change en servicemanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA500.htm">Voorlichting</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA501.htm">Data archiving</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA502.htm">Personeelbeheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA503.htm">Unified communications</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA504.htm">Student Informatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA505.htm">Operatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA506.htm">Onderzoek ontwikkeling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA507.htm">Proces & Architecuur</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA508.htm">Onderzoekvoorbereiding</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA509.htm">Auditing & monitoring</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA510.htm">Patientenforum</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA511.htm">Inkoop</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA512.htm">Patientadministratie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA513.htm">Kwaliteitsbewaking</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA514.htm">Tele-monitoring</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA515.htm">Hotelservice</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA516.htm">Document & Beeld beheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA517.htm">Behandelondersteuning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA518.htm">Beeldvormend onderzoek</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA519.htm">(Workplace) Remote Access</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA520.htm">Vastgoed</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA521.htm">Patientbewaking</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA522.htm">Certificate service</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA523.htm">Kwaliteitsinformatiemanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA524.htm">Kennismanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA525.htm">Zorgrelatiebeheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA526.htm">Locatiebepaling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA527.htm">Interactie PGO</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA528.htm">Researchdatamanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA529.htm">Preventie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA530.htm">Onderwijs rooster & planning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA531.htm">Samenwerking zorgverleners</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA532.htm">Identiteit & Authenticatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA533.htm">Tijdsregistratie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA534.htm">Dossiervoering</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA535.htm">Interactie externe bronnen</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA536.htm">Toetsing</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA537.htm">Voorraadbeheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA538.htm">Educatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA539.htm">Beslissingsondersteuning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA540.htm">Datamanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA541.htm">Beheren medische technologie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA542.htm">Kantoorautomatisering</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA543.htm">Kwaliteit en tevredenheidsmeting</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA544.htm">Beveiliging</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA545.htm">Functieonderzoek</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA546.htm">Beleid & Innovatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA547.htm">Online afspraken</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA548.htm">Netwerkservices</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA549.htm">Autorisatie management</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA550.htm">Resource planning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA551.htm">Klachtenafhandeling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA552.htm">Monitoring & alerting</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA553.htm">Tele-consultatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA554.htm">Dossieruitwisseling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA555.htm">Zorgfacturering</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA556.htm">Relatiebeheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA557.htm">Content management</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA558.htm">Performance & Verantwoording</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA559.htm">ICT Preventie en protectie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA560.htm">Database management</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA561.htm">Hosting servercapaciteit</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA562.htm">Project & Portfoliomanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA563.htm">Onderwijsportfolio</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA564.htm">Financieel beheer</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA565.htm">Beheren werkplek</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA566.htm">Laboratoriumonderzoek</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA567.htm">DNS & IP Adress management</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA568.htm">Printing & scanning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA569.htm">Servermanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA570.htm">Publieke ICT services</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA571.htm">Marketing & Contractmanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA572.htm">Loadbalancing</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA573.htm">Learning Content Management</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA574.htm">Onderzoekpublicatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA575.htm">Datacenter housing</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA576.htm">Ordermanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA577.htm">Hosting data storage</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA578.htm">Salarisverwerking</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA579.htm">Onderzoeksmanagement</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA580.htm">Verzorgingondersteuning (PatientServices)</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA581.htm">Provisioning & automation service</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA582.htm">Resultaat afhandeling</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA583.htm">Zelfmonitoring</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA584.htm">Gezondheidsvragen</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA585.htm">Medicatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA586.htm">Zorgplanning</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA587.htm">Dossierraadpleging</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="./EA7/EA588.htm">Backup & recovery</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">10. Applicatiefuncties<!--  : Public   Package --></span>
+	<span class="Note"></span>
+		<table>
+		<tr>
+			<td class="Views">Views:</td>
+			<td class="ViewsValue"></td>
+		<tr>
+	</table>
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:10:37</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">10-6-2024 14:03:45</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Views:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

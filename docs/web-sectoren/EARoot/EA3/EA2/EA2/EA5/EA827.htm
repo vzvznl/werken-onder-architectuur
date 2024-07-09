@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>01. Applicatiefuncties</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 01. Applicatiefuncties </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Sectoren architectuur</a> / <a href="../../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../../EA17.htm">Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x</a> / <a href="../EA625.htm">Views</a> / <a href="EA829.htm">10. Applicatiefuncties</a> / <a href="EA827.htm">01. Applicatiefuncties</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA827.htm">01. Applicatiefuncties</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">01. Applicatiefuncties</div> -->
+    <div class=diagram_image> 
+<img src="EA828.png" usemap="#EA828" border="0" />
+
+<MAP NAME="EA828">
+<area shape="rect" coords="42,87,142,157" href="../../EA1/EA7/EA546.htm" target="_self">
+<area shape="rect" coords="1325,1234,1425,1304" href="../../EA1/EA7/EA499.htm" target="_self">
+<area shape="rect" coords="1144,1234,1244,1304" href="../../EA1/EA7/EA556.htm" target="_self">
+<area shape="rect" coords="963,1234,1063,1304" href="../../EA1/EA7/EA544.htm" target="_self">
+<area shape="rect" coords="782,1234,882,1304" href="../../EA1/EA7/EA541.htm" target="_self">
+<area shape="rect" coords="601,1234,701,1304" href="../../EA1/EA7/EA578.htm" target="_self">
+<area shape="rect" coords="420,1234,520,1304" href="../../EA1/EA7/EA564.htm" target="_self">
+<area shape="rect" coords="239,1234,339,1304" href="../../EA1/EA7/EA502.htm" target="_self">
+<area shape="rect" coords="58,1234,158,1304" href="../../EA1/EA7/EA533.htm" target="_self">
+<area shape="rect" coords="1325,1138,1425,1208" href="../../EA1/EA7/EA551.htm" target="_self">
+<area shape="rect" coords="1144,1138,1244,1208" href="../../EA1/EA7/EA515.htm" target="_self">
+<area shape="rect" coords="963,1138,1063,1208" href="../../EA1/EA7/EA540.htm" target="_self">
+<area shape="rect" coords="782,1138,882,1208" href="../../EA1/EA7/EA500.htm" target="_self">
+<area shape="rect" coords="601,1138,701,1208" href="../../EA1/EA7/EA524.htm" target="_self">
+<area shape="rect" coords="420,1138,520,1208" href="../../EA1/EA7/EA537.htm" target="_self">
+<area shape="rect" coords="239,1138,339,1208" href="../../EA1/EA7/EA511.htm" target="_self">
+<area shape="rect" coords="58,1138,158,1208" href="../../EA1/EA7/EA520.htm" target="_self">
+<area shape="rect" coords="23,1102,1467,1330" href="../../EA1/EA8/EA2/EA612.htm" target="_self">
+<area shape="rect" coords="1206,1808,1306,1878" href="../../EA1/EA7/EA498.htm" target="_self">
+<area shape="rect" coords="846,1808,946,1878" href="../../EA1/EA7/EA572.htm" target="_self">
+<area shape="rect" coords="1278,1700,1378,1770" href="../../EA1/EA7/EA567.htm" target="_self">
+<area shape="rect" coords="1122,1700,1222,1770" href="../../EA1/EA7/EA526.htm" target="_self">
+<area shape="rect" coords="942,1700,1042,1770" href="../../EA1/EA7/EA519.htm" target="_self">
+<area shape="rect" coords="762,1700,862,1770" href="../../EA1/EA7/EA548.htm" target="_self">
+<area shape="rect" coords="726,1654,1430,1895" href="../../EA1/EA8/EA2/EA614.htm" target="_self">
+<area shape="rect" coords="467,1808,567,1878" href="../../EA1/EA7/EA522.htm" target="_self">
+<area shape="rect" coords="202,1808,302,1878" href="../../EA1/EA7/EA559.htm" target="_self">
+<area shape="rect" coords="562,1700,662,1770" href="../../EA1/EA7/EA549.htm" target="_self">
+<area shape="rect" coords="334,1700,434,1770" href="../../EA1/EA7/EA532.htm" target="_self">
+<area shape="rect" coords="106,1700,206,1770" href="../../EA1/EA7/EA509.htm" target="_self">
+<area shape="rect" coords="58,1654,701,1895" href="../../EA1/EA8/EA2/EA617.htm" target="_self">
+<area shape="rect" coords="1224,1531,1324,1601" href="../../EA1/EA7/EA552.htm" target="_self">
+<area shape="rect" coords="1096,1531,1196,1601" href="../../EA1/EA7/EA560.htm" target="_self">
+<area shape="rect" coords="968,1531,1068,1601" href="../../EA1/EA7/EA581.htm" target="_self">
+<area shape="rect" coords="840,1531,940,1601" href="../../EA1/EA7/EA588.htm" target="_self">
+<area shape="rect" coords="1286,1426,1386,1496" href="../../EA1/EA7/EA569.htm" target="_self">
+<area shape="rect" coords="1155,1426,1255,1496" href="../../EA1/EA7/EA501.htm" target="_self">
+<area shape="rect" coords="1024,1426,1124,1496" href="../../EA1/EA7/EA577.htm" target="_self">
+<area shape="rect" coords="893,1426,993,1496" href="../../EA1/EA7/EA561.htm" target="_self">
+<area shape="rect" coords="762,1426,862,1496" href="../../EA1/EA7/EA575.htm" target="_self">
+<area shape="rect" coords="726,1379,1430,1631" href="../../EA1/EA8/EA2/EA616.htm" target="_self">
+<area shape="rect" coords="469,1532,569,1602" href="../../EA1/EA7/EA570.htm" target="_self">
+<area shape="rect" coords="325,1532,425,1602" href="../../EA1/EA7/EA557.htm" target="_self">
+<area shape="rect" coords="181,1532,281,1602" href="../../EA1/EA7/EA516.htm" target="_self">
+<area shape="rect" coords="565,1424,665,1494" href="../../EA1/EA7/EA503.htm" target="_self">
+<area shape="rect" coords="409,1424,509,1494" href="../../EA1/EA7/EA542.htm" target="_self">
+<area shape="rect" coords="253,1424,353,1494" href="../../EA1/EA7/EA568.htm" target="_self">
+<area shape="rect" coords="97,1424,197,1494" href="../../EA1/EA7/EA565.htm" target="_self">
+<area shape="rect" coords="58,1378,701,1631" href="../../EA1/EA8/EA2/EA622.htm" target="_self">
+<area shape="rect" coords="23,1355,1467,1918" href="../../EA1/EA8/EA2/EA610.htm" target="_self">
+<area shape="rect" coords="1353,754,1453,824" href="../../EA1/EA7/EA530.htm" target="_self">
+<area shape="rect" coords="1353,658,1453,728" href="../../EA1/EA7/EA504.htm" target="_self">
+<area shape="rect" coords="1353,562,1453,632" href="../../EA1/EA7/EA536.htm" target="_self">
+<area shape="rect" coords="1353,466,1453,536" href="../../EA1/EA7/EA538.htm" target="_self">
+<area shape="rect" coords="1353,370,1453,440" href="../../EA1/EA7/EA573.htm" target="_self">
+<area shape="rect" coords="1353,274,1453,344" href="../../EA1/EA7/EA563.htm" target="_self">
+<area shape="rect" coords="1329,202,1467,1079" href="../../EA1/EA8/EA2/EA618.htm" target="_self">
+<area shape="rect" coords="1111,965,1211,1035" href="../../EA1/EA7/EA555.htm" target="_self">
+<area shape="rect" coords="931,965,1031,1035" href="../../EA1/EA7/EA496.htm" target="_self">
+<area shape="rect" coords="763,965,863,1035" href="../../EA1/EA7/EA512.htm" target="_self">
+<area shape="rect" coords="595,965,695,1035" href="../../EA1/EA7/EA550.htm" target="_self">
+<area shape="rect" coords="439,965,539,1035" href="../../EA1/EA7/EA586.htm" target="_self">
+<area shape="rect" coords="295,965,395,1035" href="../../EA1/EA7/EA525.htm" target="_self">
+<area shape="rect" coords="226,922,1287,1055" href="../../EA1/EA8/EA2/EA624.htm" target="_self">
+<area shape="rect" coords="911,814,1011,884" href="../../EA1/EA7/EA545.htm" target="_self">
+<area shape="rect" coords="701,814,801,884" href="../../EA1/EA7/EA518.htm" target="_self">
+<area shape="rect" coords="489,814,589,884" href="../../EA1/EA7/EA566.htm" target="_self">
+<area shape="rect" coords="226,766,1287,906" href="../../EA1/EA8/EA2/EA607.htm" target="_self">
+<area shape="rect" coords="1122,662,1222,732" href="../../EA1/EA7/EA580.htm" target="_self">
+<area shape="rect" coords="911,662,1011,732" href="../../EA1/EA7/EA513.htm" target="_self">
+<area shape="rect" coords="700,662,800,732" href="../../EA1/EA7/EA582.htm" target="_self">
+<area shape="rect" coords="489,662,589,732" href="../../EA1/EA7/EA576.htm" target="_self">
+<area shape="rect" coords="278,663,378,733" href="../../EA1/EA7/EA539.htm" target="_self">
+<area shape="rect" coords="1122,567,1222,637" href="../../EA1/EA7/EA521.htm" target="_self">
+<area shape="rect" coords="911,567,1011,637" href="../../EA1/EA7/EA505.htm" target="_self">
+<area shape="rect" coords="700,567,800,637" href="../../EA1/EA7/EA585.htm" target="_self">
+<area shape="rect" coords="489,567,589,637" href="../../EA1/EA7/EA534.htm" target="_self">
+<area shape="rect" coords="278,567,378,637" href="../../EA1/EA7/EA587.htm" target="_self">
+<area shape="rect" coords="238,526,1275,743" href="../../EA1/EA8/EA2/EA615.htm" target="_self">
+<area shape="rect" coords="226,502,1287,755" href="../../EA1/EA8/EA2/EA613.htm" target="_self">
+<area shape="rect" coords="1098,382,1198,452" href="../../EA1/EA7/EA531.htm" target="_self">
+<area shape="rect" coords="1158,290,1258,360" href="../../EA1/EA7/EA535.htm" target="_self">
+<area shape="rect" coords="1026,290,1126,360" href="../../EA1/EA7/EA554.htm" target="_self">
+<area shape="rect" coords="998,250,1275,479" href="../../EA1/EA8/EA2/EA621.htm" target="_self">
+<area shape="rect" coords="865,382,965,452" href="../../EA1/EA7/EA543.htm" target="_self">
+<area shape="rect" coords="742,382,842,452" href="../../EA1/EA7/EA584.htm" target="_self">
+<area shape="rect" coords="619,382,719,452" href="../../EA1/EA7/EA529.htm" target="_self">
+<area shape="rect" coords="496,382,596,452" href="../../EA1/EA7/EA583.htm" target="_self">
+<area shape="rect" coords="373,382,473,452" href="../../EA1/EA7/EA514.htm" target="_self">
+<area shape="rect" coords="250,382,350,452" href="../../EA1/EA7/EA553.htm" target="_self">
+<area shape="rect" coords="809,290,909,360" href="../../EA1/EA7/EA547.htm" target="_self">
+<area shape="rect" coords="684,290,784,360" href="../../EA1/EA7/EA510.htm" target="_self">
+<area shape="rect" coords="559,290,659,360" href="../../EA1/EA7/EA527.htm" target="_self">
+<area shape="rect" coords="434,290,534,360" href="../../EA1/EA7/EA517.htm" target="_self">
+<area shape="rect" coords="309,290,409,360" href="../../EA1/EA7/EA497.htm" target="_self">
+<area shape="rect" coords="238,250,983,479" href="../../EA1/EA8/EA2/EA620.htm" target="_self">
+<area shape="rect" coords="226,226,1287,491" href="../../EA1/EA8/EA2/EA606.htm" target="_self">
+<area shape="rect" coords="214,202,1305,1079" href="../../EA1/EA8/EA2/EA623.htm" target="_self">
+<area shape="rect" coords="42,646,142,716" href="../../EA1/EA7/EA574.htm" target="_self">
+<area shape="rect" coords="42,550,142,620" href="../../EA1/EA7/EA528.htm" target="_self">
+<area shape="rect" coords="42,454,142,524" href="../../EA1/EA7/EA579.htm" target="_self">
+<area shape="rect" coords="42,358,142,428" href="../../EA1/EA7/EA508.htm" target="_self">
+<area shape="rect" coords="42,262,142,332" href="../../EA1/EA7/EA506.htm" target="_self">
+<area shape="rect" coords="23,202,161,1079" href="../../EA1/EA8/EA2/EA619.htm" target="_self">
+<area shape="rect" coords="1352,82,1452,152" href="../../EA1/EA7/EA571.htm" target="_self">
+<area shape="rect" coords="1090,82,1190,152" href="../../EA1/EA7/EA558.htm" target="_self">
+<area shape="rect" coords="828,82,928,152" href="../../EA1/EA7/EA523.htm" target="_self">
+<area shape="rect" coords="566,87,666,157" href="../../EA1/EA7/EA562.htm" target="_self">
+<area shape="rect" coords="304,87,404,157" href="../../EA1/EA7/EA507.htm" target="_self">
+<area shape="rect" coords="23,46,1467,186" href="../../EA1/EA8/EA2/EA605.htm" target="_self">
+<area shape="rect" coords="10,10,1494,1941" href="../../EA1/EA8/EA2/EA611.htm" target="_self">
+</MAP>
+ </br></div>
+	
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:16:28</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">18-6-2024 13:09:35</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+	</table>
+<div/>
+
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

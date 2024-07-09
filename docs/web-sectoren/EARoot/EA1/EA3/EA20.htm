@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>nl.zorg.Patient-v3.2</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> nl.zorg.Patient-v3.2 </h1>
+			<!-- <img class="header_image" src="../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">html publicatie test</a> / <a href="../EA1.htm">01. Architectuur</a> / <a href="EA24.htm">Model</a> / <a href="EA26.htm">Patiënt [administratief]</a> / <a href="EA20.htm">nl.zorg.Patient-v3.2</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA20.htm">nl.zorg.Patient-v3.2</a></li>
+<li><img src="../../../images/329.png" alt="Text"/> <a href="EA29.htm">Legend</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA30.htm">Patient</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA31.htm">Naamgegevens</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA32.htm">Adresgegevens</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA33.htm">Contactgegevens</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA34.htm">Identificatienummer</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA35.htm">Geboortedatum</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA36.htm">Geslacht</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA37.htm">MeerlingIndicator</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA38.htm">OverlijdensIndicator</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA39.htm">DatumOverlijden</a></li>
+<li><img src="../../../images/82.png" alt="Artifact"/> <a href="EA40.htm">GeslachtCodelijst</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">nl.zorg.Patient-v3.2</div> -->
+    <div class=diagram_image> 
+<img src="EA21.png" usemap="#EA21" border="0" />
+
+<MAP NAME="EA21">
+<area shape="rect" coords="472,65,581,135" href="EA33.htm" target="_self">
+<area shape="rect" coords="298,63,407,134" href="EA32.htm" target="_self">
+<area shape="rect" coords="133,65,242,135" href="EA31.htm" target="_self">
+<area shape="rect" coords="471,170,581,240" href="EA38.htm" target="_self">
+<area shape="rect" coords="471,275,581,345" href="EA39.htm" target="_self">
+<area shape="rect" coords="308,377,406,447" href="EA37.htm" target="_self">
+<area shape="rect" coords="91,169,241,239" href="EA34.htm" target="_self">
+<area shape="rect" coords="129,481,255,531" href="EA40.htm" target="_self">
+<area shape="rect" coords="143,273,241,343" href="EA35.htm" target="_self">
+<area shape="rect" coords="143,377,241,447" href="EA36.htm" target="_self">
+<area shape="rect" coords="307,197,407,277" href="EA30.htm" target="_self">
+</MAP>
+ </br></div>
+	
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">8-1-2010 13:51:46</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">8-7-2024 12:44:56</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Ernst de Bel</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
+			<td class="ObjectDetailsValue">1.1</td>
+		</tr>
+	</table>
+<div/>
+
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

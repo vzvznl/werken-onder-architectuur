@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.5.2.1:1", "", "informatiesystemen(en)", "EARoot/EA5/EA2/EA1/EA1811.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E100262", "0", "", "Component0","{8383C1D4-4005-4d09-8F44-BC2204C07DCA}");
+tocTab[tocTab.length] = new Array("0.5.2.1:2", "", "System Use Cases", "EARoot/EA5/EA2/EA1/EA1812.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100263", "0", "", "Activity0","{F29C6476-6C82-4c8d-9905-24E2AFCF3193}");
+tocTab[tocTab.length] = new Array("0.5.2.1:3", "", "Data object(en)", "EARoot/EA5/EA2/EA1/EA1813.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E100264", "0", "", "Class0","{617D07C2-AE40-445e-BDA5-66AA6E97E702}");

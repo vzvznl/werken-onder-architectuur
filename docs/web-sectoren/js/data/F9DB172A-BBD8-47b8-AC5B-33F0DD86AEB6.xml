@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.1", "1", "Instructie referentiemodellen", "EARoot/EA3/EA1/EA14.htm", "4.png", "", "", "{6E83E093-A6C7-477e-92A7-16AC990A4AFB}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2", "1", "Ziekenhuis referentiearchitectuur (ZiRA) v1.2.x", "EARoot/EA3/EA2/EA17.htm", "4.png", "", "", "{A354CB90-ED82-4637-B1A6-51622F11C225}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3", "1", "Referentie Domeinmodel Care (RDC) v3.0.x", "EARoot/EA3/EA3/EA830.htm", "4.png", "", "", "{EE4EDBC0-A15C-4846-B26A-636EEED1AA11}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4", "1", "Referentie Domeinmodel GGZ (RDG) v1.0.x", "EARoot/EA3/EA4/EA1176.htm", "4.png", "", "", "{32CD9462-AB71-420d-A49C-88665C6C63FE}", "Package");

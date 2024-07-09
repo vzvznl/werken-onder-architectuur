@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.3.2.1.1", "1", "01. Diensten", "EARoot/EA3/EA2/EA1/EA1/EA29.htm", "4.png", "", "", "{6E98AB73-FBBD-4bf0-B5CB-36DFB7BBE108}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.2", "1", "02. Zorgprocessen", "EARoot/EA3/EA2/EA1/EA2/EA43.htm", "4.png", "", "", "{50547540-E7A4-4286-B3A7-45A5B7E11FE6}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.3", "1", "03. Zorg werkprocessen", "EARoot/EA3/EA2/EA1/EA3/EA51.htm", "4.png", "", "", "{21010208-C58A-40ff-B61B-FB4DBD9F6E43}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.4", "1", "04. (Zorg)activiteiten", "EARoot/EA3/EA2/EA1/EA4/EA81.htm", "4.png", "", "", "{B78E1C9A-EFD1-4f00-8B62-6D53FA0F2555}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.5", "1", "05. Informatieobjecten", "EARoot/EA3/EA2/EA1/EA5/EA252.htm", "4.png", "", "", "{1EEB184E-BB63-4439-AC02-4F196EFA8B26}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.6", "1", "06. Informatiedomeinen", "EARoot/EA3/EA2/EA1/EA6/EA442.htm", "4.png", "", "", "{8D86713D-C861-46a3-8BFF-D99C277E787F}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.7", "1", "10. Applicatiefuncties", "EARoot/EA3/EA2/EA1/EA7/EA495.htm", "4.png", "", "", "{24FACE67-2302-4079-8212-20AC631BB63E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.8", "1", "99. Groepen", "EARoot/EA3/EA2/EA1/EA8/EA589.htm", "4.png", "", "", "{AD9214AD-A213-41ae-AE7D-95B128A89E17}", "Package");

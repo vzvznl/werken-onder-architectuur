@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.5.5.1:1", "", "06. Huisartsenzorg", "EARoot/EA5/EA5/EA1/EA1874.htm", "175.png", "14982", "0", "", "Logical diagram0","{504E7426-9199-4bdb-AAE3-5D6D5707D90D}");
+tocTab[tocTab.length] = new Array("0.5.5.1:2", "", "10. Jeugdgezondheidszorg", "EARoot/EA5/EA5/EA1/EA1876.htm", "175.png", "14983", "0", "", "Logical diagram0","{DC7A9BB2-FDB3-4ee9-B089-CFB6D573B11E}");
+tocTab[tocTab.length] = new Array("0.5.5.1:3", "", "05. Geestelijke gezondheidszorg", "EARoot/EA5/EA5/EA1/EA1878.htm", "175.png", "14984", "0", "", "Logical diagram0","{7CDC0891-B5CE-4cee-8F0A-6B3A1ADCB109}");
+tocTab[tocTab.length] = new Array("0.5.5.1:4", "", "07. Spoedzorg", "EARoot/EA5/EA5/EA1/EA1880.htm", "175.png", "14985", "0", "", "Logical diagram0","{982F4D0B-D788-4be5-BFDF-DB93D10B0892}");
+tocTab[tocTab.length] = new Array("0.5.5.1:5", "", "03. Verpleging, verzorging, thuiszorg", "EARoot/EA5/EA5/EA1/EA1882.htm", "175.png", "14986", "0", "", "Logical diagram0","{E52ABD14-8C9A-4b9d-AD90-F7DF4C06D1BA}");
+tocTab[tocTab.length] = new Array("0.5.5.1:6", "", "09. Gehandicaptenzorg", "EARoot/EA5/EA5/EA1/EA1884.htm", "175.png", "14987", "0", "", "Logical diagram0","{0025CDC1-C938-47d0-83BC-E6B395F84E46}");

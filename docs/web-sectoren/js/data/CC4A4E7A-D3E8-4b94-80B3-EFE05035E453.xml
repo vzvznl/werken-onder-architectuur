@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.2.2.2:1", "", "Beschikbaarstellen BgGGZ", "EARoot/EA5/EA2/EA2/EA2/EA1823.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100269", "0", "", "Activity0","{E60B72F5-7F1B-4991-ADBD-C9F2413CCBDD}");
+tocTab[tocTab.length] = new Array("0.5.2.2.2:2", "", "Raadplegen BgGGZ", "EARoot/EA5/EA2/EA2/EA2/EA1824.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E100270", "0", "", "Activity0","{357383B5-32DF-4d87-A6A6-49F9EE00E8F9}");

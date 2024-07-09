@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.5.7.1", "1", "01. Informatie bouwstenen", "EARoot/EA5/EA5/EA7/EA1/EA1909.htm", "4.png", "", "", "{BB7104FE-C964-43e3-B00B-088D8EC719DA}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5.7.2", "1", "02. Informatiestandaarden", "EARoot/EA5/EA5/EA7/EA2/EA1910.htm", "4.png", "", "", "{582946FA-A46A-40e4-B318-39FF7E178A9C}", "Package");

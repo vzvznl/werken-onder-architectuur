@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>030102. Afnemen anamnese</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 030102. Afnemen anamnese </h1>
+			<!-- <img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/VZVZ.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Sectoren architectuur</a> / <a href="../../../EA7.htm">99. Referentiedomeinmodellen</a> / <a href="../../EA1176.htm">Referentie Domeinmodel GGZ (RDG) v1.0.x</a> / <a href="../EA1179.htm">Views</a> / <a href="EA1235.htm">01. Informatiedomeinen</a> / <a href="EA1193.htm">030102. Afnemen anamnese</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Architectuur</div>
+						<ul>
+<li><img src="../../../../../images/4.png" alt="Package"/> <a href="./EA1/EA1241.htm">00. Start</a></li>
+<li><img src="../../../../../images/4.png" alt="Package"/> <a href="./EA2/EA1252.htm">01. Sturing en verantwoording</a></li>
+<li><img src="../../../../../images/4.png" alt="Package"/> <a href="./EA3/EA1259.htm">02. Samenwerking</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1181.htm">020301. Verwerken zelfmanagement informatie van de patiënt</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1183.htm">020302. Aanbieden zorgspecifieke informatie aan patiënt</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1185.htm">0204. Samenwerking - Kennismanagement</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1187.htm">0205. Samenwerking - Wetenschappelijk onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1189.htm">0206. Samenwerking - Onderwijs</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1191.htm">030100. Zorgverlening - Aanmelding</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1193.htm">030102. Afnemen anamnese</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1195.htm">0302. Zorgverlening - Toeleiding</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1197.htm">0303. Zorgverlening - Behandeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1199.htm">0304. Zorgverlening - Verzorging</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1201.htm">0305. Zorgverlening - Medicatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1203.htm">0306. Zorgverlening - Beëindigen zorg</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1205.htm">0307. Zorgverlening - Aanvullend onderzoek</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1207.htm">0401. Zorgprocesondersteuning - Zorgrelatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1209.htm">0402. Zorgprocesondersteuning - Resource planning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1211.htm">0403. Zorgprocesondersteuning - Zorgplanning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1213.htm">0404. Zorgprocesondersteuning - Financiële afhandeling</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1215.htm">0501. Bedrijfsondersteuning - Beheer gebouwen</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1217.htm">0502. Bedrijfsondersteuning - Inkoop-, contract-, en voorraad-beheer</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1219.htm">0503. Bedrijfsondersteuning - Juridische ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1221.htm">0504. Bedrijfsondersteuning - Communicatie en voorlichting</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1223.htm">0505. Bedrijfsondersteuning - Facilitaire ondersteuning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1225.htm">0506. Bedrijfsondersteuning - Personeel en organisatie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1227.htm">0507. Bedrijfsondersteuning - Financiële administratie</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1229.htm">0508. Bedrijfsondersteuning - Informatie voorziening</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1231.htm">0509. Bedrijfsondersteuning - Veiligheid, Kwaliteit, Arbo, en Milieu</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1233.htm">0510. Bedrijfsondersteuning - Planning & control</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">030102. Afnemen anamnese</div> -->
+    <div class=diagram_image> 
+<img src="EA1194.png" usemap="#EA1194" border="0" />
+
+<MAP NAME="EA1194">
+<area shape="rect" coords="455,10,575,90" href="../../EA2/EA3/EA1403.htm" target="_self">
+<area shape="rect" coords="227,10,347,90" href="../../EA2/EA2/EA1309.htm" target="_self">
+<area shape="rect" coords="10,190,130,270" href="../../../../EA5/EA2/EA2/EA1/EA1821.htm" target="_self">
+<area shape="rect" coords="442,190,562,270" href="../../../../EA5/EA2/EA2/EA1/EA1818.htm" target="_self">
+<area shape="rect" coords="299,190,419,270" href="../../../../EA5/EA2/EA2/EA1/EA1819.htm" target="_self">
+<area shape="rect" coords="154,190,274,270" href="../../../../EA5/EA2/EA2/EA1/EA1820.htm" target="_self">
+<area shape="rect" coords="226,346,346,426" href="../../../../EA5/EA1/EA9/EA1802.htm" target="_self">
+</MAP>
+ </br></div>
+	<div class="ObjectDetailsNotes">Dit domein bevat de activiteiten op het gebied van de aanmelding van (nieuwe) patiënten, doorverwezen door een erkende verwijzer.&lt;br/&gt;</div>
+
+	<table border="0" class="ObjectDetails">
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Eigenschappen:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:17:32</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">10-6-2024 12:17:32</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+	</table>
+<div/>
+
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

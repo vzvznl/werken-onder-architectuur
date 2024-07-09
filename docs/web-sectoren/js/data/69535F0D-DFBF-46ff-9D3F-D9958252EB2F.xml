@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.2.2.3.1:1", "", "01. Verwerken verwijzing", "EARoot/EA3/EA2/EA2/EA3/EA1/EA659.htm", "175.png", "15058", "0", "", "Logical diagram0","{9BA00C59-445F-4e6b-B420-C474F83D4433}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.1:2", "", "02. Bepalen zorgbehoefte", "EARoot/EA3/EA2/EA2/EA3/EA1/EA661.htm", "175.png", "15056", "0", "", "Logical diagram0","{EA1E9DBF-A3A9-48cc-9658-FE58403C0128}");
+tocTab[tocTab.length] = new Array("0.3.2.2.3.1:3", "", "03. Plannen contact", "EARoot/EA3/EA2/EA2/EA3/EA1/EA663.htm", "175.png", "15057", "0", "", "Logical diagram0","{659E4E5D-3D0C-48b3-A9C1-A234E7972684}");
