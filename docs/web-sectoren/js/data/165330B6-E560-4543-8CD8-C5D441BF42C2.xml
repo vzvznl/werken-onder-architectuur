@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.5.2.2:1", "", "01. Participatie", "EARoot/EA1/EA5/EA2/EA2/EA428.htm", "175.png", "15262", "0", "", "Logical diagram0","{55EDFB1A-8C51-4ae7-9C56-C8AD12DA653D}");
+tocTab[tocTab.length] = new Array("0.1.5.2.2:2", "", "02. Kennismanagement", "EARoot/EA1/EA5/EA2/EA2/EA430.htm", "175.png", "15240", "0", "", "Logical diagram0","{AD143570-036A-4667-8DE5-2563E92AB386}");
+tocTab[tocTab.length] = new Array("0.1.5.2.2:3", "", "03. Verwijziging", "EARoot/EA1/EA5/EA2/EA2/EA432.htm", "175.png", "15241", "0", "", "Logical diagram0","{A206FA8E-B5D0-4406-8BDF-A25495F09720}");
+tocTab[tocTab.length] = new Array("0.1.5.2.2:4", "", "04. Informatieuitwisseling", "EARoot/EA1/EA5/EA2/EA2/EA434.htm", "175.png", "15263", "0", "", "Logical diagram0","{200BED60-0B0B-421c-980D-B84257E9B148}");

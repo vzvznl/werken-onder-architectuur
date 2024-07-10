@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.5.2.5:1", "", "01. Beheer gebouwen en inventaris", "EARoot/EA1/EA5/EA2/EA5/EA465.htm", "175.png", "15238", "0", "", "Logical diagram0","{F27D95E3-96B1-4ef2-973A-5A9A2F56FF16}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:2", "", "02. Inkoop en voorraadbeheer", "EARoot/EA1/EA5/EA2/EA5/EA467.htm", "175.png", "15234", "0", "", "Logical diagram0","{26173F3B-5859-4362-A6A5-504B6C1CA19E}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:3", "", "03. Juridische ondersteuning", "EARoot/EA1/EA5/EA2/EA5/EA469.htm", "175.png", "15245", "0", "", "Logical diagram0","{8BE8E8AC-DCDF-4ede-93F8-C7DBC78796F2}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:4", "", "04. Communicatie en voorlichting", "EARoot/EA1/EA5/EA2/EA5/EA471.htm", "175.png", "15249", "0", "", "Logical diagram0","{6843A749-4356-42c5-95AE-27636FC47B94}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:5", "", "05. Zorgcontractering", "EARoot/EA1/EA5/EA2/EA5/EA473.htm", "175.png", "15250", "0", "", "Logical diagram0","{2BAD4FC1-BB43-4f9e-A45E-F115E8EEDAB3}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:6", "", "06. Personeel en organisatie", "EARoot/EA1/EA5/EA2/EA5/EA475.htm", "175.png", "15247", "0", "", "Logical diagram0","{40D9E4FA-A7DF-4839-A3C5-5BAA50B6C6BF}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:7", "", "07. Financiële administratie", "EARoot/EA1/EA5/EA2/EA5/EA477.htm", "175.png", "15251", "0", "", "Logical diagram0","{A125967A-CC9C-40d0-9A35-93E8CA07FFAE}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:8", "", "08. ICT", "EARoot/EA1/EA5/EA2/EA5/EA479.htm", "175.png", "15255", "0", "", "Logical diagram0","{8F532CB0-EC24-4f07-9706-A6A19DFE488B}");
+tocTab[tocTab.length] = new Array("0.1.5.2.5:9", "", "09. Kwalliteit, veiligheid, Arbo en Milieu", "EARoot/EA1/EA5/EA2/EA5/EA481.htm", "175.png", "15258", "0", "", "Logical diagram0","{1B5B2FF4-FD21-494c-8157-E84012DDF606}");
